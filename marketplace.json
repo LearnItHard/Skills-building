@@ -1,0 +1,23 @@
+{
+  "name": "LearnItHard Skills",
+  "description": "Skills for Claude Code / OpenCode / Codex",
+  "repository": "https://github.com/LearnItHard/Skills-building",
+  "skills": [
+    {
+      "name": "mineru-converter",
+      "description": "High-quality document conversion using MinerU API v4. Convert PDF, Word, PPT, and images to structured Markdown with automatic chapter detection.",
+      "path": "skills/mineru-converter",
+      "tags": ["document", "pdf", "conversion", "markdown", "ocr"],
+      "author": "LearnItHard",
+      "version": "1.0.0"
+    },
+    {
+      "name": "skills-manager",
+      "description": "CLI tool to install and manage AI agent skills from GitHub repositories",
+      "path": "skills/skills-manager",
+      "tags": ["cli", "manager", "installer"],
+      "author": "LearnItHard",
+      "version": "1.0.0"
+    }
+  ]
+}
