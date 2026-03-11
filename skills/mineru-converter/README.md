@@ -2,6 +2,42 @@
 
 A high-quality document conversion tool based on [MinerU API v4](https://mineru.net/), supporting conversion of PDF, Word, PPT, and images to structured Markdown.
 
+## Installation
+
+### Option 1: Using add-skill (Recommended)
+
+```bash
+npx add-skill LearnItHard/Skills-building --skill mineru-converter
+```
+
+This works with Claude Code, OpenCode, Codex, and Cursor.
+
+### Option 2: Using curl + bash
+
+**Linux/Mac:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/LearnItHard/Skills-building/main/install.sh | bash
+```
+
+**Windows (PowerShell):**
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/LearnItHard/Skills-building/main/install.sh" -OutFile "install.sh"; bash install.sh
+```
+
+### Option 3: Manual Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/LearnItHard/Skills-building.git
+
+# Copy to your skills directory
+# For Claude Code:
+cp -r Skills-building/skills/mineru-converter ~/.claude/skills/
+
+# For OpenCode:
+cp -r Skills-building/skills/mineru-converter ~/.config/opencode/skill/
+```
+
 ## Features
 
 - 📄 **PDF → Markdown** - Supports text and scanned documents OCR
