@@ -1,92 +1,92 @@
 # MinerU Document Converter
 
-基于 [MinerU API v4](https://mineru.net/) 的高质量文档转换工具，支持 PDF、Word、PPT 和图片转换为结构化 Markdown。
+A high-quality document conversion tool based on [MinerU API v4](https://mineru.net/), supporting conversion of PDF, Word, PPT, and images to structured Markdown.
 
-## 功能特性
+## Features
 
-- 📄 **PDF → Markdown** - 支持文本、扫描件 OCR
-- 📝 **Word/DOCX → Markdown** - 自动转换为 PDF 后处理
-- 🖼️ **图片 → Markdown** - OCR 文字识别
-- 📊 **表格公式识别** - 自动识别表格和数学公式
-- 📑 **章节自动分割** - 按标题层级拆分文档
-- 🌐 **中英文支持** - 优化中文文档处理
+- 📄 **PDF → Markdown** - Supports text and scanned documents OCR
+- 📝 **Word/DOCX → Markdown** - Automatically converts to PDF then processes
+- 🖼️ **Image → Markdown** - OCR text recognition
+- 📊 **Table & Formula Recognition** - Automatic recognition of tables and mathematical formulas
+- 📑 **Auto Chapter Splitting** - Splits documents by heading hierarchy
+- 🌐 **Chinese & English Support** - Optimized for Chinese document processing
 
-## 快速开始
+## Quick Start
 
-### 1. 安装依赖
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-依赖：
-- `requests>=2.28.0` - HTTP 请求
-- `python-docx>=0.8.11` - Word 文档处理
-- `python-dotenv>=1.0.0` - 环境变量管理
+Dependencies:
+- `requests>=2.28.0` - HTTP requests
+- `python-docx>=0.8.11` - Word document processing
+- `python-dotenv>=1.0.0` - Environment variable management
 
-### 2. 配置 API Token
+### 2. Configure API Token
 
-复制环境变量示例文件：
+Copy the environment variable example file:
 
 ```bash
 cp .env.example .env
 ```
 
-编辑 `.env` 文件，填入你的 MinerU API Token：
+Edit the `.env` file and add your MinerU API Token:
 
 ```env
 MINERU_API_TOKEN=your_token_here
 ```
 
-获取 Token：https://mineru.net/apiManage
+Get Token: https://mineru.net/apiManage
 
-### 3. 转换文档
+### 3. Convert Documents
 
 ```python
 from converter import MinerUConverter
 from config import MinerUConfig
 
-# 加载配置
+# Load configuration
 config = MinerUConfig.from_env()
 converter = MinerUConverter(config)
 
-# 转换本地文件
+# Convert local file
 chapters = converter.convert(
     "document.pdf",
     output_dir="./output",
     split_chapters=True
 )
 
-print(f"生成 {len(chapters)} 个章节")
+print(f"Generated {len(chapters)} chapters")
 for ch in chapters:
     print(f"- {ch.title}")
 ```
 
-## 使用示例
+## Usage Examples
 
-### 转换 PDF
+### Convert PDF
 
 ```python
 from converter import convert_document
 
 chapters = convert_document(
-    file_path="论文.pdf",
+    file_path="paper.pdf",
     api_token="your_token",
     output_dir="./output"
 )
 ```
 
-### 转换 Word 文档
+### Convert Word Document
 
 ```python
 chapters = converter.convert(
-    "报告.docx",
+    "report.docx",
     output_dir="./output",
     split_chapters=True
 )
 ```
 
-### 批量处理
+### Batch Processing
 
 ```python
 import os
@@ -95,43 +95,43 @@ files = ["doc1.pdf", "doc2.docx", "doc3.png"]
 for file in files:
     try:
         chapters = converter.convert(file, output_dir=f"./output/{file}")
-        print(f"✅ {file}: {len(chapters)} 章节")
+        print(f"✅ {file}: {len(chapters)} chapters")
     except Exception as e:
         print(f"❌ {file}: {e}")
 ```
 
-## 输出结构
+## Output Structure
 
 ```
 output/
-├── index.json                 # 章节索引
-├── document_full.md           # 完整文档
-├── 01-前言/
-│   └── 01-前言.md
-├── 02-目录/
-│   └── 02-目录.md
-├── 03-正文/
-│   ├── 03-正文.md
-│   ├── 03-01-第一节.md
-│   └── 03-02-第二节.md
+├── index.json                 # Chapter index
+├── document_full.md           # Full document
+├── 01-Introduction/
+│   └── 01-Introduction.md
+├── 02-Table-of-Contents/
+│   └── 02-Table-of-Contents.md
+├── 03-Content/
+│   ├── 03-Content.md
+│   ├── 03-01-Section-One.md
+│   └── 03-02-Section-Two.md
 └── ...
 ```
 
-## 配置选项
+## Configuration Options
 
-### 环境变量
+### Environment Variables
 
-| 变量 | 默认值 | 说明 |
-|------|--------|------|
-| `MINERU_API_TOKEN` | - | **必需** API Token |
-| `MINERU_ENABLE_FORMULA` | `true` | 启用公式识别 |
-| `MINERU_ENABLE_TABLE` | `true` | 启用表格识别 |
-| `MINERU_LANGUAGE` | `ch` | 语言：`ch`(中文), `en`(英文), `ch,en` |
-| `MINERU_MODEL_VERSION` | `vlm` | 模型版本 |
-| `MINERU_POLL_INTERVAL` | `3` | 轮询间隔（秒）|
-| `MINERU_MAX_POLL_ATTEMPTS` | `100` | 最大轮询次数 |
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MINERU_API_TOKEN` | - | **Required** API Token |
+| `MINERU_ENABLE_FORMULA` | `true` | Enable formula recognition |
+| `MINERU_ENABLE_TABLE` | `true` | Enable table recognition |
+| `MINERU_LANGUAGE` | `ch` | Language: `ch`(Chinese), `en`(English), `ch,en` |
+| `MINERU_MODEL_VERSION` | `vlm` | Model version |
+| `MINERU_POLL_INTERVAL` | `3` | Polling interval (seconds) |
+| `MINERU_MAX_POLL_ATTEMPTS` | `100` | Maximum polling attempts |
 
-### 代码配置
+### Code Configuration
 
 ```python
 from config import MinerUConfig
@@ -145,45 +145,45 @@ config = MinerUConfig(
 )
 ```
 
-## API 限制
+## API Limitations
 
-- 每日最高 2000 页（高优先级）
-- 单文件最大 200MB，600 页
-- 支持格式：PDF, DOC, DOCX, PPT, PPTX, PNG, JPG, JPEG
+- Maximum 2000 pages/day (high priority)
+- Single file max: 200MB, 600 pages
+- Supported formats: PDF, DOC, DOCX, PPT, PPTX, PNG, JPG, JPEG
 
-## 常见问题
+## FAQ
 
-**Q: Token 无效报错？**  
-A: 检查 Token 是否正确，是否已过期，或是否包含多余空格。
+**Q: Invalid Token error?**  
+A: Check if the Token is correct, not expired, or contains extra spaces.
 
-**Q: 转换超时？**  
-A: 大文件需要更长时间，增加 `MINERU_MAX_POLL_ATTEMPTS` 值。
+**Q: Conversion timeout?**  
+A: Large files take longer. Increase `MINERU_MAX_POLL_ATTEMPTS` value.
 
-**Q: 中文识别不准确？**  
-A: 设置 `MINERU_LANGUAGE=ch`，确保使用中文模型。
+**Q: Chinese recognition inaccurate?**  
+A: Set `MINERU_LANGUAGE=ch` to ensure Chinese model is used.
 
-**Q: 如何仅转换不分割章节？**  
-A: 设置 `split_chapters=False`，只输出完整文档。
+**Q: How to convert without splitting chapters?**  
+A: Set `split_chapters=False` to output only the full document.
 
-## 项目结构
+## Project Structure
 
 ```
 mineru-converter/
-├── converter.py          # 核心转换器
-├── config.py             # 配置管理
-├── chapter_splitter.py   # 章节分割
-├── docx_to_pdf.py        # DOCX 转 PDF
-├── requirements.txt      # 依赖列表
-├── .env.example          # 环境变量示例
-└── test_converter.py     # 测试脚本
+├── converter.py          # Core converter
+├── config.py             # Configuration management
+├── chapter_splitter.py   # Chapter splitting
+├── docx_to_pdf.py        # DOCX to PDF conversion
+├── requirements.txt      # Dependencies
+├── .env.example          # Environment variables example
+└── test_converter.py     # Test script
 ```
 
-## 许可证
+## License
 
 MIT License
 
-## 相关链接
+## Related Links
 
-- [MinerU 官网](https://mineru.net/)
-- [API 文档](https://mineru.net/apiDocs)
-- [GitHub 仓库](https://github.com/LearnItHard/Skills-building)
+- [MinerU Official](https://mineru.net/)
+- [API Documentation](https://mineru.net/apiDocs)
+- [GitHub Repository](https://github.com/LearnItHard/Skills-building)
