@@ -1,0 +1,51 @@
+{
+  "name": "@feiyuwang/skills-installer",
+  "version": "1.0.0",
+  "description": "Interactive installer for LearnItHard AI agent skills",
+  "main": "./bin/cli.js",
+  "type": "module",
+  "bin": {
+    "learnithard-skills": "./bin/cli.js",
+    "lh-skills": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.0",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.0",
+    "fs-extra": "^11.0.0"
+  },
+  "keywords": [
+    "claude-code",
+    "skills",
+    "installer",
+    "ai-agent",
+    "opencode",
+    "codex",
+    "cursor"
+  ],
+  "author": "LearnItHard <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnItHard/Skills-building.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LearnItHard/Skills-building/issues"
+  },
+  "homepage": "https://github.com/LearnItHard/Skills-building#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
