@@ -1,0 +1,128 @@
+[
+  {
+    "term_cn": "排水工程",
+    "term_en": "wastewater engineering",
+    "clause": "2.0.1",
+    "definition": "收集、输送、处理、再生污水和雨水的工程。"
+  },
+  {
+    "term_cn": "雨水系统",
+    "term_en": "stormwater system",
+    "clause": "2.0.2",
+    "definition": "下渗、蓄滞、收集、输送、处理和利用雨水的设施以一定方式组合成的总体，涵盖从雨水径流的产生到末端排放的全过程管理及预警和应急措施等。"
+  },
+  {
+    "term_cn": "污水系统",
+    "term_en": "wastewater system",
+    "clause": "2.0.3",
+    "definition": "收集、输送、处理、再生和处置城镇污水的设施以一定方式组合成的总体。"
+  },
+  {
+    "term_cn": "排水设施",
+    "term_en": "wastewater facilities",
+    "clause": "2.0.4",
+    "definition": "排水工程中的管道、构筑物和设备等的统称。"
+  },
+  {
+    "term_cn": "合流制溢流",
+    "term_en": "combined sewer overflow",
+    "clause": "2.0.5",
+    "definition": "合流制排水系统降雨时，超过截流能力而排入水体的合流污水。"
+  },
+  {
+    "term_cn": "径流污染",
+    "term_en": "runoff pollution",
+    "clause": "2.0.6",
+    "definition": "通过降雨和地表径流冲刷，将大气和地表中的污染物带入受纳水体，使受纳水体遭受污染的现象，是城市面源污染的主要来源。"
+  },
+  {
+    "term_cn": "年径流总量控制率",
+    "term_en": "volume capture ratio of annual rainfall",
+    "clause": "2.0.7",
+    "definition": "通过自然与人工强化的渗透、滞蓄、净化等方式控制城市建设下垫面的降雨径流，得到控制的年均降雨量与年均降雨总量的比值。"
+  },
+  {
+    "term_cn": "低影响开发",
+    "term_en": "lowimpactdevelopment",
+    "clause": "2.0.8",
+    "definition": "强调城镇开发应减少对环境的影响，其核心是基于源头控制和降低冲击负荷的理念，构建与自然相适应的排水系统，合理利用空间和采取相应措施削减暴雨径流产生的峰值和总量，延缓峰值流量出现时间，减少城镇面源污染。"
+  },
+  {
+    "term_cn": "旱流污水",
+    "term_en": "dry weather flow",
+    "clause": "2.0.9",
+    "definition": "晴天时的城镇污水，包括综合生活污水量、工业废水量和入渗地下水量。"
+  },
+  {
+    "term_cn": "旱季设计流量",
+    "term_en": "maximum dry weather flowrate",
+    "clause": "2.0.10",
+    "definition": "晴天时最高日最高时的城镇污水量。"
+  },
+  {
+    "term_cn": "雨季设计流量",
+    "term_en": "wet weather flowrate",
+    "clause": "2.0.11",
+    "definition": "分流制的雨季设计流量是旱季设计流量和截流雨水量的总和。合流制的雨季设计流量就是截流后的合流污水量。"
+  },
+  {
+    "term_cn": "截流雨水量",
+    "term_en": "intercepted stormwater",
+    "clause": "2.0.12",
+    "definition": "排水系统中截流的雨水，这部分雨水通过污水管道送至城镇污水处理厂，以控制城镇地表径流污染。"
+  },
+  {
+    "term_cn": "综合生活污水量变化系数",
+    "term_en": "overall peaking factor",
+    "clause": "2.0.13",
+    "definition": "最高日最高时污水量与平均日平均时污水量的比值。"
+  },
+  {
+    "term_cn": "径流量",
+    "term_en": "runoff",
+    "clause": "2.0.14",
+    "definition": "降落到地面的雨水超出一定区域内地面渗透、滞蓄能力后多余水量，由地面汇流至管渠到受纳水体的流量的统称。"
+  },
+  {
+    "term_cn": "雨水管渠设计重现期",
+    "term_en": "recurrence interval for storm sewer design",
+    "clause": "2.0.15",
+    "definition": "用于进行雨水管渠设计的暴雨重现期。"
+  },
+  {
+    "term_cn": "内涝防治设计重现期",
+    "term_en": "recurrence interval for urban flooding design",
+    "clause": "2.0.16",
+    "definition": "用于进行城镇内涝防治系统设计的暴雨重现期，使地面、道路等区域的积水深度和退水时间不超过一定的标准。"
+  },
+  {
+    "term_cn": "紫外线有效剂量",
+    "term_en": "effective ultraviolet dose",
+    "clause": "2.0.35",
+    "definition": "经生物验定测试得到的照射到生物体上的紫外线量（即紫外线生物验定剂量）。"
+  },
+  {
+    "term_cn": "污泥干化",
+    "term_en": "sludge drying",
+    "clause": "2.0.36",
+    "definition": "通过渗滤或蒸发等作用，从脱水污泥中去除水分的过程。"
+  },
+  {
+    "term_cn": "污泥好氧发酵",
+    "term_en": "sludge compost",
+    "clause": "2.0.37",
+    "definition": "在充分供氧的条件下, 污泥在好氧微生物的作用下产生较高温度使有机物生物降解及无害化, 最终生成性质稳定腐殖化产物的过程。"
+  },
+  {
+    "term_cn": "污泥综合利用",
+    "term_en": "sludge integrated application",
+    "clause": "2.0.38",
+    "definition": "将处理后的污泥作为有用的原材料在各种用途上加以利用的方法。"
+  },
+  {
+    "term_cn": "除臭系统",
+    "term_en": "odor control system",
+    "clause": "2.0.39",
+    "definition": "将臭气从源头收集、处理到末端排放的设施，包括臭气源加盖、臭气收集、臭气处理和处理后排放等。"
+  }
+]

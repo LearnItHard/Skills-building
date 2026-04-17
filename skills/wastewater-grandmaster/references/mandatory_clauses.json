@@ -1,0 +1,200 @@
+[
+  {
+    "clause": "3.3.3",
+    "text": "排入城镇污水管网的污水水质必须符合国家现行标准的规定，不应影响城镇排水管渠和污水厂等的正常运行；不应对养护管理人员造成危害；不应影响处理后出水的再生利用和安全排放；不应影响污泥的处理和处置。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "wastewater_collection",
+    "condition": {
+      "influent_compliance": "符合国家标准",
+      "no_operational_impact": true,
+      "no_worker_harm": true,
+      "no_reuse_impact": true,
+      "no_sludge_impact": true
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "4.1.6",
+    "text": "当地区改建时，改建后相同设计重现期的径流量不得超过原径流量。",
+    "type": "legal_mandatory",
+    "rule_type": "numeric_threshold",
+    "domain": "stormwater_design",
+    "condition": {
+      "parameter": "post_dev_runoff",
+      "operator": "<=",
+      "reference": "pre_dev_runoff",
+      "context": "same_design_recurrence_period"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "5.6.1",
+    "text": "当工业废水能产生引起爆炸或火灾的气体时，其管道系统中必须设置水封井。水封井位置应设在产生上述废水的排出口处及其干管上适当间隔距离处。",
+    "type": "legal_mandatory",
+    "rule_type": "facility_existence",
+    "domain": "sewer_appurtenances",
+    "condition": {
+      "trigger": "industrial_wastewater_produces_explosive_or_flammable_gas",
+      "required_facility": "water_seal_well",
+      "location": "outlet_and_main_pipe_intervals"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "5.15.3",
+    "text": "污水管道、合流管道与生活给水管道相交时，应敷设在生活给水管道的下面或采取防护措施。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "pipeline_integration",
+    "condition": {
+      "if": "sewage_or_combined_pipe_intersects_potable_water_pipe",
+      "then": "must_be_below_or_protected"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "6.1.12",
+    "text": "排水泵站供电应按二级负荷设计。特别重要地区的泵站应按一级负荷设计。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "pump_station",
+    "condition": {
+      "general": "二级负荷",
+      "special": "一级负荷_for_critical_areas"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "7.1.11",
+    "text": "污水厂的供电系统应按二级负荷设计。重要的污水厂内的重要部位应按一级负荷设计。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "wastewater_treatment",
+    "condition": {
+      "general": "二级负荷",
+      "special": "一级负荷_for_important_parts_of_important_plants"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "7.1.13",
+    "text": "厂区的给水管道和再生水管道严禁与处理装置直接连接。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "wastewater_treatment",
+    "condition": {
+      "prohibition": "potable_or_reclaimed_water_direct_connection_to_treatment_unit"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "7.3.8",
+    "text": "格栅间应设置通风设施和硫化氢等有毒有害气体的检测与报警装置。",
+    "type": "legal_mandatory",
+    "rule_type": "facility_existence",
+    "domain": "wastewater_treatment",
+    "condition": {
+      "location": "screening_room",
+      "required_facilities": [
+        "ventilation",
+        "H2S_and_toxic_gas_detection_alarm"
+      ]
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "7.11.3",
+    "text": "再生水输配到用户的管道严禁和其他管网连接。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "reclaimed_water",
+    "condition": {
+      "prohibition": "reclaimed_water_pipe_interconnection_with_other_networks"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "7.12.4",
+    "text": "采用自然处理时，应采取防渗措施，严禁污染地下水。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "natural_treatment",
+    "condition": {
+      "if": "natural_treatment_used",
+      "then": "impermeable_measures_required",
+      "prohibition": "groundwater_contamination"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "8.3.15",
+    "text": "厌氧消化池和污泥气贮罐应密封，并能承受污泥气的工作压力，其气密性试验压力不应小于污泥气工作压力的1.5倍。厌氧消化池和污泥气贮罐应采取防止池(罐)内产生超压和负压的措施。",
+    "type": "legal_mandatory",
+    "rule_type": "numeric_threshold",
+    "domain": "sludge_treatment",
+    "condition": {
+      "sealing": "required",
+      "pressure_test_multiplier": {
+        "operator": ">=",
+        "value": 1.5,
+        "reference": "working_pressure"
+      },
+      "overpressure_and_negative_pressure_prevention": "required"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "8.3.16",
+    "text": "厌氧消化池溢流和表面排渣管出口不得放在室内，且必须设置水封装置。厌氧消化池的出气管上必须设置回火防止器。",
+    "type": "legal_mandatory",
+    "rule_type": "facility_existence",
+    "domain": "sludge_treatment",
+    "condition": {
+      "overflow_and_skimming_outlet": "not_indoor",
+      "water_seal_device": "required",
+      "flashback_arrester": "required_on_outlet_pipe"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "8.3.18",
+    "text": "污泥气贮罐、污泥气压缩机房、污泥气阀门控制间、污泥气管道层等可能泄漏污泥气的场所，电机、仪表和照明等电器设备均应符合防爆要求，室内应设置通风设施和污泥气泄漏报警装置。",
+    "type": "legal_mandatory",
+    "rule_type": "facility_existence",
+    "domain": "sludge_treatment",
+    "condition": {
+      "explosion_proof_electrical_equipment": "required",
+      "ventilation": "required",
+      "sludge_gas_leak_alarm": "required"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  },
+  {
+    "clause": "8.3.20",
+    "text": "污泥气贮罐超压时，不得直接向大气排放污泥气，应采用污泥气燃烧器燃烧消耗，燃烧器应采用内燃式。污泥气贮罐的出气管上必须设置回火防止器。",
+    "type": "legal_mandatory",
+    "rule_type": "enum_branch",
+    "domain": "sludge_treatment",
+    "condition": {
+      "overpressure_relief": "no_direct_atmospheric_venting",
+      "must_use": "internal_combustion_burner",
+      "flashback_arrester": "required_on_outlet_pipe"
+    },
+    "severity": "mandatory",
+    "source": "GB 50014-2021 室外排水设计标准"
+  }
+]

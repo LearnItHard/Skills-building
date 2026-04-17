@@ -18,6 +18,14 @@
       "tags": ["cli", "manager", "installer"],
       "author": "LearnItHard",
       "version": "1.0.0"
+    },
+    {
+      "name": "wastewater-grandmaster",
+      "description": "Grandmaster-level engineering assistant for GB 50014-2021 Outdoor Drainage Design Standard. Precise clause citation, bounded hydraulic and treatment calculations, and layered compliance review.",
+      "path": "skills/wastewater-grandmaster",
+      "tags": ["engineering", "wastewater", "drainage", "gb50014", "civil-engineering", "compliance"],
+      "author": "LearnItHard",
+      "version": "1.0.0"
     }
   ]
 }

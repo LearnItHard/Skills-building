@@ -1,0 +1,2833 @@
+{
+  "source_file": "《室外排水设计标准》（GB 50014-2021）",
+  "total_chapters": 314,
+  "structure": "directory",
+  "chapters": [
+    {
+      "title": "室外排水设计标准",
+      "level": 1,
+      "file": "01-室外排水设计标准.md",
+      "dir": "01-室外排水设计标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Standard for design of outdoor wastewater engineering",
+      "level": 1,
+      "file": "02-Standard-for-design-of-outdoor.md",
+      "dir": "02-Standard-for-design-of-outdoor",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "中华人民共和国国家标准",
+      "level": 1,
+      "file": "03-中华人民共和国国家标准.md",
+      "dir": "03-中华人民共和国国家标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "室外排水设计标准",
+      "level": 1,
+      "file": "04-室外排水设计标准.md",
+      "dir": "04-室外排水设计标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "中华人民共和国国家标准",
+      "level": 1,
+      "file": "05-中华人民共和国国家标准.md",
+      "dir": "05-中华人民共和国国家标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "室外排水设计标准",
+      "level": 1,
+      "file": "06-室外排水设计标准.md",
+      "dir": "06-室外排水设计标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "中华人民共和国住房和城乡建设部公告",
+      "level": 1,
+      "file": "07-中华人民共和国住房和城乡建设部公告.md",
+      "dir": "07-中华人民共和国住房和城乡建设部公告",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "住房和城乡建设部关于发布国家标准《室外排水设计标准》的公告",
+      "level": 1,
+      "file": "08-住房和城乡建设部关于发布国家标准室外排水设计标准的公告.md",
+      "dir": "08-住房和城乡建设部关于发布国家标准室外排水设计标准的公告",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "前言",
+      "level": 1,
+      "file": "09-前言.md",
+      "dir": "09-前言",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "目次",
+      "level": 1,
+      "file": "10-目次.md",
+      "dir": "10-目次",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6泵 站 (35）",
+      "level": 1,
+      "file": "11-6泵-站-35.md",
+      "dir": "11-6泵-站-35",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7 污水和再生水处理 (42)",
+      "level": 1,
+      "file": "12-7-污水和再生水处理-42.md",
+      "dir": "12-7-污水和再生水处理-42",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8 污泥处理和处置 (82)",
+      "level": 1,
+      "file": "13-8-污泥处理和处置-82.md",
+      "dir": "13-8-污泥处理和处置-82",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9 检测和控制 (99)",
+      "level": 1,
+      "file": "14-9-检测和控制-99.md",
+      "dir": "14-9-检测和控制-99",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录A 年径流总量控制率对应的设计降雨量计算方法 (103)",
+      "level": 1,
+      "file": "15-附录A-年径流总量控制率对应的设计降雨量计算方法-103.md",
+      "dir": "15-附录A-年径流总量控制率对应的设计降雨量计算方法-103",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录C 排水管道和其他地下管线(构筑物)的最小净距 (106)",
+      "level": 1,
+      "file": "16-附录C-排水管道和其他地下管线构筑物的最小净距-106.md",
+      "dir": "16-附录C-排水管道和其他地下管线构筑物的最小净距-106",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Contents",
+      "level": 1,
+      "file": "17-Contents.md",
+      "dir": "17-Contents",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6 Pump station (35)",
+      "level": 1,
+      "file": "18-6-Pump-station-35.md",
+      "dir": "18-6-Pump-station-35",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7 Wastewater and reclaimed water treatment (42)",
+      "level": 1,
+      "file": "19-7-Wastewater-and-reclaimed-wat.md",
+      "dir": "19-7-Wastewater-and-reclaimed-wat",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8 Sludge treatment and disposal (82)",
+      "level": 1,
+      "file": "20-8-Sludge-treatment-and-disposa.md",
+      "dir": "20-8-Sludge-treatment-and-disposa",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9 Monitoring and control (99)",
+      "level": 1,
+      "file": "21-9-Monitoring-and-control-99.md",
+      "dir": "21-9-Monitoring-and-control-99",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Appendix A Conversion between volume capture ratio of annual rainfall and design rainfall depth (103)",
+      "level": 1,
+      "file": "22-Appendix-A-Conversion-between-.md",
+      "dir": "22-Appendix-A-Conversion-between-",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "1 总 则",
+      "level": 1,
+      "file": "23-1-总-则.md",
+      "dir": "23-1-总-则",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2 术语",
+      "level": 1,
+      "file": "24-2-术语.md",
+      "dir": "24-2-术语",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.1 排水工程 wastewater engineering",
+      "level": 1,
+      "file": "25-201-排水工程-wastewater-engineerin.md",
+      "dir": "25-201-排水工程-wastewater-engineerin",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.2 雨水系统 stormwater system",
+      "level": 1,
+      "file": "26-202-雨水系统-stormwater-system.md",
+      "dir": "26-202-雨水系统-stormwater-system",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.3 污水系统 wastewater system",
+      "level": 1,
+      "file": "27-203-污水系统-wastewater-system.md",
+      "dir": "27-203-污水系统-wastewater-system",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.4 排水设施 wastewater facilities",
+      "level": 1,
+      "file": "28-204-排水设施-wastewater-facilities.md",
+      "dir": "28-204-排水设施-wastewater-facilities",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.5 合流制溢流 combined sewer overflow(CSO)",
+      "level": 1,
+      "file": "29-205-合流制溢流-combined-sewer-overf.md",
+      "dir": "29-205-合流制溢流-combined-sewer-overf",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.6 径流污染 runoff pollution",
+      "level": 1,
+      "file": "30-206-径流污染-runoff-pollution.md",
+      "dir": "30-206-径流污染-runoff-pollution",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.7 年径流总量控制率 volume capture ratio of annual rainfall",
+      "level": 1,
+      "file": "31-207-年径流总量控制率-volume-capture-ra.md",
+      "dir": "31-207-年径流总量控制率-volume-capture-ra",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.8 低影响开发 lowimpactdevelopment(LID)",
+      "level": 1,
+      "file": "32-208-低影响开发-lowimpactdevelopment.md",
+      "dir": "32-208-低影响开发-lowimpactdevelopment",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.9 旱流污水 dry weather flow(DWF)",
+      "level": 1,
+      "file": "33-209-旱流污水-dry-weather-flowDWF.md",
+      "dir": "33-209-旱流污水-dry-weather-flowDWF",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.10 旱季设计流量 maximum dry weather flowrate",
+      "level": 1,
+      "file": "34-2010-旱季设计流量-maximum-dry-weathe.md",
+      "dir": "34-2010-旱季设计流量-maximum-dry-weathe",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.11 雨季设计流量 wet weather flowrate",
+      "level": 1,
+      "file": "35-2011-雨季设计流量-wet-weather-flowra.md",
+      "dir": "35-2011-雨季设计流量-wet-weather-flowra",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.12 截流雨水量 intercepted stormwater",
+      "level": 1,
+      "file": "36-2012-截流雨水量-intercepted-stormwa.md",
+      "dir": "36-2012-截流雨水量-intercepted-stormwa",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.13 综合生活污水量变化系数 overall peaking factor",
+      "level": 1,
+      "file": "37-2013-综合生活污水量变化系数-overall-peaki.md",
+      "dir": "37-2013-综合生活污水量变化系数-overall-peaki",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.14 径流量 runoff",
+      "level": 1,
+      "file": "38-2014-径流量-runoff.md",
+      "dir": "38-2014-径流量-runoff",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.15 雨水管渠设计重现期 recurrence interval for storm sewer design",
+      "level": 1,
+      "file": "39-2015-雨水管渠设计重现期-recurrence-inte.md",
+      "dir": "39-2015-雨水管渠设计重现期-recurrence-inte",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.16 内涝防治设计重现期 recurrence interval for urban flooding design",
+      "level": 1,
+      "file": "40-2016-内涝防治设计重现期-recurrence-inte.md",
+      "dir": "40-2016-内涝防治设计重现期-recurrence-inte",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.35 紫外线有效剂量 effective ultraviolet dose",
+      "level": 1,
+      "file": "41-2035-紫外线有效剂量-effective-ultravi.md",
+      "dir": "41-2035-紫外线有效剂量-effective-ultravi",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.36 污泥干化 sludge drying",
+      "level": 1,
+      "file": "42-2036-污泥干化-sludge-drying.md",
+      "dir": "42-2036-污泥干化-sludge-drying",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.37 污泥好氧发酵 sludge compost",
+      "level": 1,
+      "file": "43-2037-污泥好氧发酵-sludge-compost.md",
+      "dir": "43-2037-污泥好氧发酵-sludge-compost",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.38 污泥综合利用 sludge integrated application",
+      "level": 1,
+      "file": "44-2038-污泥综合利用-sludge-integrated-.md",
+      "dir": "44-2038-污泥综合利用-sludge-integrated-",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "2.0.39 除臭系统 odor control system",
+      "level": 1,
+      "file": "45-2039-除臭系统-odor-control-system.md",
+      "dir": "45-2039-除臭系统-odor-control-system",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3 排水工程",
+      "level": 1,
+      "file": "46-3-排水工程.md",
+      "dir": "46-3-排水工程",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.1 一般规定",
+      "level": 1,
+      "file": "47-31-一般规定.md",
+      "dir": "47-31-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.2 雨水系统",
+      "level": 1,
+      "file": "48-32-雨水系统.md",
+      "dir": "48-32-雨水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.3 污水系统",
+      "level": 1,
+      "file": "49-33-污水系统.md",
+      "dir": "49-33-污水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4 设计流量和设计水质",
+      "level": 1,
+      "file": "50-4-设计流量和设计水质.md",
+      "dir": "50-4-设计流量和设计水质",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.1 设计流量",
+      "level": 1,
+      "file": "51-41-设计流量.md",
+      "dir": "51-41-设计流量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 雨水量",
+      "level": 1,
+      "file": "52-I-雨水量.md",
+      "dir": "52-I-雨水量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.1.6 当地区改建时，改建后相同设计重现期的径流量不得超过原径流量。",
+      "level": 1,
+      "file": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径.md",
+      "dir": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.1.9 设计暴雨强度应按下式计算：",
+      "level": 1,
+      "file": "54-419-设计暴雨强度应按下式计算.md",
+      "dir": "54-419-设计暴雨强度应按下式计算",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.1.10 暴雨强度公式应根据气候变化进行修订。",
+      "level": 1,
+      "file": "55-4110-暴雨强度公式应根据气候变化进行修订.md",
+      "dir": "55-4110-暴雨强度公式应根据气候变化进行修订",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ污水量",
+      "level": 1,
+      "file": "56-Ⅱ污水量.md",
+      "dir": "56-Ⅱ污水量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.2 设计水质",
+      "level": 1,
+      "file": "57-42-设计水质.md",
+      "dir": "57-42-设计水质",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5 排水管渠和附属构筑物",
+      "level": 1,
+      "file": "58-5-排水管渠和附属构筑物.md",
+      "dir": "58-5-排水管渠和附属构筑物",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.1 一般规定",
+      "level": 1,
+      "file": "59-51-一般规定.md",
+      "dir": "59-51-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.2 水力计算",
+      "level": 1,
+      "file": "60-52-水力计算.md",
+      "dir": "60-52-水力计算",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.2.8 压力输泥管的最小设计流速可按表5.2.8的规定取值。",
+      "level": 1,
+      "file": "61-528-压力输泥管的最小设计流速可按表528的规定取值.md",
+      "dir": "61-528-压力输泥管的最小设计流速可按表528的规定取值",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.3 管道",
+      "level": 1,
+      "file": "62-53-管道.md",
+      "dir": "62-53-管道",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.4 检查井",
+      "level": 1,
+      "file": "63-54-检查井.md",
+      "dir": "63-54-检查井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.4.5 检查井各部尺寸应符合下列规定：",
+      "level": 1,
+      "file": "64-545-检查井各部尺寸应符合下列规定.md",
+      "dir": "64-545-检查井各部尺寸应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.5 跌水井",
+      "level": 1,
+      "file": "65-55-跌水井.md",
+      "dir": "65-55-跌水井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.6 水封井",
+      "level": 1,
+      "file": "66-56-水封井.md",
+      "dir": "66-56-水封井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.7 雨水口",
+      "level": 1,
+      "file": "67-57-雨水口.md",
+      "dir": "67-57-雨水口",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.8 截流设施",
+      "level": 1,
+      "file": "68-58-截流设施.md",
+      "dir": "68-58-截流设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.9 出水口",
+      "level": 1,
+      "file": "69-59-出水口.md",
+      "dir": "69-59-出水口",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.10 立体交叉道路排水",
+      "level": 1,
+      "file": "70-510-立体交叉道路排水.md",
+      "dir": "70-510-立体交叉道路排水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.11 倒虹管",
+      "level": 1,
+      "file": "71-511-倒虹管.md",
+      "dir": "71-511-倒虹管",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.12 渗透管渠",
+      "level": 1,
+      "file": "72-512-渗透管渠.md",
+      "dir": "72-512-渗透管渠",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.13 渠 道",
+      "level": 1,
+      "file": "73-513-渠-道.md",
+      "dir": "73-513-渠-道",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.13.3 渠道和涵洞连接时，应符合下列规定：",
+      "level": 1,
+      "file": "74-5133-渠道和涵洞连接时应符合下列规定.md",
+      "dir": "74-5133-渠道和涵洞连接时应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.13.4 渠道和管道连接处应设置挡土墙等衔接设施。渠道接入管道处应设置格栅。",
+      "level": 1,
+      "file": "75-5134-渠道和管道连接处应设置挡土墙等衔接设施渠道接入管道.md",
+      "dir": "75-5134-渠道和管道连接处应设置挡土墙等衔接设施渠道接入管道",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.14 雨水调蓄设施",
+      "level": 1,
+      "file": "76-514-雨水调蓄设施.md",
+      "dir": "76-514-雨水调蓄设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.15 管道综合",
+      "level": 1,
+      "file": "77-515-管道综合.md",
+      "dir": "77-515-管道综合",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6 泵 站",
+      "level": 1,
+      "file": "78-6-泵-站.md",
+      "dir": "78-6-泵-站",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.1 一般规定",
+      "level": 1,
+      "file": "79-61-一般规定.md",
+      "dir": "79-61-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.2 设计流量和设计扬程",
+      "level": 1,
+      "file": "80-62-设计流量和设计扬程.md",
+      "dir": "80-62-设计流量和设计扬程",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.3 集水池",
+      "level": 1,
+      "file": "81-63-集水池.md",
+      "dir": "81-63-集水池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.4 泵房设计",
+      "level": 1,
+      "file": "82-64-泵房设计.md",
+      "dir": "82-64-泵房设计",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I水泵配置",
+      "level": 1,
+      "file": "83-I水泵配置.md",
+      "dir": "83-I水泵配置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ泵房",
+      "level": 1,
+      "file": "84-Ⅱ泵房.md",
+      "dir": "84-Ⅱ泵房",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.5 出水设施",
+      "level": 1,
+      "file": "85-65-出水设施.md",
+      "dir": "85-65-出水设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7 污水和再生水处理",
+      "level": 1,
+      "file": "86-7-污水和再生水处理.md",
+      "dir": "86-7-污水和再生水处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.1 一般规定",
+      "level": 1,
+      "file": "87-71-一般规定.md",
+      "dir": "87-71-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.2 厂址选择和总体布置",
+      "level": 1,
+      "file": "88-72-厂址选择和总体布置.md",
+      "dir": "88-72-厂址选择和总体布置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.3 格栅",
+      "level": 1,
+      "file": "89-73-格栅.md",
+      "dir": "89-73-格栅",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.4 沉砂池",
+      "level": 1,
+      "file": "90-74-沉砂池.md",
+      "dir": "90-74-沉砂池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5 沉淀池",
+      "level": 1,
+      "file": "91-75-沉淀池.md",
+      "dir": "91-75-沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "92-I-一般规定.md",
+      "dir": "92-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 沉淀池",
+      "level": 1,
+      "file": "93-Ⅱ-沉淀池.md",
+      "dir": "93-Ⅱ-沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.12 辐流沉淀池的设计应符合下列规定：",
+      "level": 1,
+      "file": "94-7512-辐流沉淀池的设计应符合下列规定.md",
+      "dir": "94-7512-辐流沉淀池的设计应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.13 当需要挖掘原有沉淀池潜力或建造沉淀池面积受限制时，通过技术经济比较，可采用斜管(板)沉淀池。",
+      "level": 1,
+      "file": "95-7513-当需要挖掘原有沉淀池潜力或建造沉淀池面积受限制时通.md",
+      "dir": "95-7513-当需要挖掘原有沉淀池潜力或建造沉淀池面积受限制时通",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.14 升流式异向流斜管(板)沉淀池的表面水力负荷，可按普通沉淀池表面水力负荷的2倍计；但对于斜管(板)二次沉淀池，尚应以固体负荷核算。",
+      "level": 1,
+      "file": "96-7514-升流式异向流斜管板沉淀池的表面水力负荷可按普通沉淀.md",
+      "dir": "96-7514-升流式异向流斜管板沉淀池的表面水力负荷可按普通沉淀",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.15 升流式异向流斜管(板)沉淀池的设计应符合下列规定：",
+      "level": 1,
+      "file": "97-7515-升流式异向流斜管板沉淀池的设计应符合下列规定.md",
+      "dir": "97-7515-升流式异向流斜管板沉淀池的设计应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.16 斜管(板)沉淀池应设置冲洗设施。",
+      "level": 1,
+      "file": "98-7516-斜管板沉淀池应设置冲洗设施.md",
+      "dir": "98-7516-斜管板沉淀池应设置冲洗设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 高效沉淀池",
+      "level": 1,
+      "file": "99-IV-高效沉淀池.md",
+      "dir": "99-IV-高效沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5.17 高效沉淀池表面水力负荷宜为 $6\\mathrm{m}^3 /(\\mathrm{m}^2\\bullet \\mathrm{h})\\sim 13\\mathrm{m}^3 /(\\mathrm{m}^2\\bullet \\mathrm{h})$ 。混合时间宜为 $0.5\\mathrm{min}\\sim 2.0\\mathrm{min}$ ，絮凝时间宜为 $8\\mathrm{min}\\sim 15\\mathrm{min}$ 。污泥回流量宜占进水量的 $3\\% \\sim 6\\%$ 。",
+      "level": 1,
+      "file": "100-7517-高效沉淀池表面水力负荷宜为-6mathrmm3-m.md",
+      "dir": "100-7517-高效沉淀池表面水力负荷宜为-6mathrmm3-m",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6 活性污泥法",
+      "level": 1,
+      "file": "101-76-活性污泥法.md",
+      "dir": "101-76-活性污泥法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "102-I-一般规定.md",
+      "dir": "102-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 传统活性污泥法",
+      "level": 1,
+      "file": "103-Ⅱ-传统活性污泥法.md",
+      "dir": "103-Ⅱ-传统活性污泥法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6.10 当以去除碳源污染物为主时，生物反应池的容积可按下列公式计算：",
+      "level": 1,
+      "file": "104-7610-当以去除碳源污染物为主时生物反应池的容积可按下列公.md",
+      "dir": "104-7610-当以去除碳源污染物为主时生物反应池的容积可按下列公",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ厌氧/缺氧/好氧法(AAO或 $\\mathrm{A^2O}$ 法）",
+      "level": 1,
+      "file": "105-Ⅲ厌氧缺氧好氧法AAO或-mathrmA2O-法.md",
+      "dir": "105-Ⅲ厌氧缺氧好氧法AAO或-mathrmA2O-法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6.16 当以脱氮除磷为主时，应采用厌氧/缺氧/好氧法（AAO或 $\\mathrm{A}^2\\mathrm{O}$ 法)的水处理工艺，并应符合下列规定：",
+      "level": 1,
+      "file": "106-7616-当以脱氮除磷为主时应采用厌氧缺氧好氧法AAO或-m.md",
+      "dir": "106-7616-当以脱氮除磷为主时应采用厌氧缺氧好氧法AAO或-m",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6.17 当仅需脱氮时，宜采用缺氧/好氧法 $\\mathrm{(A_{N}O}$ 法），并应符合下列规定：",
+      "level": 1,
+      "file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
+      "dir": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6.18 当仅需除磷时，宜采用厌氧/好氧法（ $\\mathrm{A_PO}$ 法），并应符合下列规定：",
+      "level": 1,
+      "file": "108-7618-当仅需除磷时宜采用厌氧好氧法-mathrmA_PO.md",
+      "dir": "108-7618-当仅需除磷时宜采用厌氧好氧法-mathrmA_PO",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6.19 当需要同时脱氮除磷时，宜采用厌氧/缺氧/好氧法（AAO或 $\\mathrm{A}^2\\mathrm{O}$ 法），并应符合下列规定：",
+      "level": 1,
+      "file": "109-7619-当需要同时脱氮除磷时宜采用厌氧缺氧好氧法AAO或-.md",
+      "dir": "109-7619-当需要同时脱氮除磷时宜采用厌氧缺氧好氧法AAO或-",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 氧化沟",
+      "level": 1,
+      "file": "110-IV-氧化沟.md",
+      "dir": "110-IV-氧化沟",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V 序批式活性污泥法(SBR)",
+      "level": 1,
+      "file": "111-V-序批式活性污泥法SBR.md",
+      "dir": "111-V-序批式活性污泥法SBR",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "VI 膜生物反应器(MBR)",
+      "level": 1,
+      "file": "112-VI-膜生物反应器MBR.md",
+      "dir": "112-VI-膜生物反应器MBR",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.7 回流污泥和剩余污泥",
+      "level": 1,
+      "file": "113-77-回流污泥和剩余污泥.md",
+      "dir": "113-77-回流污泥和剩余污泥",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.8 生物膜法",
+      "level": 1,
+      "file": "114-78-生物膜法.md",
+      "dir": "114-78-生物膜法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "115-I-一般规定.md",
+      "dir": "115-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "II 生物接触氧化池",
+      "level": 1,
+      "file": "116-II-生物接触氧化池.md",
+      "dir": "116-II-生物接触氧化池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 曝气生物滤池",
+      "level": 1,
+      "file": "117-Ⅲ-曝气生物滤池.md",
+      "dir": "117-Ⅲ-曝气生物滤池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 生物转盘",
+      "level": 1,
+      "file": "118-IV-生物转盘.md",
+      "dir": "118-IV-生物转盘",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V 移动床生物膜反应器",
+      "level": 1,
+      "file": "119-V-移动床生物膜反应器.md",
+      "dir": "119-V-移动床生物膜反应器",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.9 供氧设施",
+      "level": 1,
+      "file": "120-79-供氧设施.md",
+      "dir": "120-79-供氧设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.10 化学除磷",
+      "level": 1,
+      "file": "121-710-化学除磷.md",
+      "dir": "121-710-化学除磷",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11 深度和再生处理",
+      "level": 1,
+      "file": "122-711-深度和再生处理.md",
+      "dir": "122-711-深度和再生处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "123-I-一般规定.md",
+      "dir": "123-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.3 再生水输配到用户的管道严禁和其他管网连接。",
+      "level": 1,
+      "file": "124-7113-再生水输配到用户的管道严禁和其他管网连接.md",
+      "dir": "124-7113-再生水输配到用户的管道严禁和其他管网连接",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 处理工艺",
+      "level": 1,
+      "file": "125-Ⅱ-处理工艺.md",
+      "dir": "125-Ⅱ-处理工艺",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.7 滤池的设计宜符合下列规定：",
+      "level": 1,
+      "file": "126-7117-滤池的设计宜符合下列规定.md",
+      "dir": "126-7117-滤池的设计宜符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.8 石英砂滤料滤池、无烟煤和石英砂双层滤料滤池的设计应符合下列规定：",
+      "level": 1,
+      "file": "127-7118-石英砂滤料滤池无烟煤和石英砂双层滤料滤池的设计应符.md",
+      "dir": "127-7118-石英砂滤料滤池无烟煤和石英砂双层滤料滤池的设计应符",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.9 转盘滤池的设计宜符合下列规定：",
+      "level": 1,
+      "file": "128-7119-转盘滤池的设计宜符合下列规定.md",
+      "dir": "128-7119-转盘滤池的设计宜符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.10 当污水厂二级处理出水经混凝、沉淀、过滤后，仍不能达到再生水水质要求时，可采用活性炭吸附处理。",
+      "level": 1,
+      "file": "129-71110-当污水厂二级处理出水经混凝沉淀过滤后仍不能达到再.md",
+      "dir": "129-71110-当污水厂二级处理出水经混凝沉淀过滤后仍不能达到再",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.11 活性炭吸附处理的设计宜符合下列规定：",
+      "level": 1,
+      "file": "130-71111-活性炭吸附处理的设计宜符合下列规定.md",
+      "dir": "130-71111-活性炭吸附处理的设计宜符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ输配水",
+      "level": 1,
+      "file": "131-Ⅲ输配水.md",
+      "dir": "131-Ⅲ输配水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.12 自然处理",
+      "level": 1,
+      "file": "132-712-自然处理.md",
+      "dir": "132-712-自然处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "133-I-一般规定.md",
+      "dir": "133-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 人工湿地",
+      "level": 1,
+      "file": "134-Ⅱ-人工湿地.md",
+      "dir": "134-Ⅱ-人工湿地",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 稳定塘",
+      "level": 1,
+      "file": "135-Ⅲ-稳定塘.md",
+      "dir": "135-Ⅲ-稳定塘",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.13 消毒",
+      "level": 1,
+      "file": "136-713-消毒.md",
+      "dir": "136-713-消毒",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "137-I-一般规定.md",
+      "dir": "137-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ紫外线",
+      "level": 1,
+      "file": "138-Ⅱ紫外线.md",
+      "dir": "138-Ⅱ紫外线",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 二氧化氯、次氯酸钠和氯",
+      "level": 1,
+      "file": "139-Ⅲ-二氧化氯次氯酸钠和氯.md",
+      "dir": "139-Ⅲ-二氧化氯次氯酸钠和氯",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8 污泥处理和处置",
+      "level": 1,
+      "file": "140-8-污泥处理和处置.md",
+      "dir": "140-8-污泥处理和处置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.1 一般规定",
+      "level": 1,
+      "file": "141-81-一般规定.md",
+      "dir": "141-81-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.2 污泥浓缩",
+      "level": 1,
+      "file": "142-82-污泥浓缩.md",
+      "dir": "142-82-污泥浓缩",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.3 污泥消化",
+      "level": 1,
+      "file": "143-83-污泥消化.md",
+      "dir": "143-83-污泥消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "144-I-一般规定.md",
+      "dir": "144-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 污泥厌氧消化",
+      "level": 1,
+      "file": "145-Ⅱ-污泥厌氧消化.md",
+      "dir": "145-Ⅱ-污泥厌氧消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 污泥好氧消化",
+      "level": 1,
+      "file": "146-Ⅲ-污泥好氧消化.md",
+      "dir": "146-Ⅲ-污泥好氧消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.4 污泥好氧发酵",
+      "level": 1,
+      "file": "147-84-污泥好氧发酵.md",
+      "dir": "147-84-污泥好氧发酵",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "148-I-一般规定.md",
+      "dir": "148-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ混料系统",
+      "level": 1,
+      "file": "149-Ⅱ混料系统.md",
+      "dir": "149-Ⅱ混料系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 发酵系统",
+      "level": 1,
+      "file": "150-Ⅲ-发酵系统.md",
+      "dir": "150-Ⅲ-发酵系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 供氧系统",
+      "level": 1,
+      "file": "151-IV-供氧系统.md",
+      "dir": "151-IV-供氧系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5 污泥机械脱水",
+      "level": 1,
+      "file": "152-85-污泥机械脱水.md",
+      "dir": "152-85-污泥机械脱水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "153-I-一般规定.md",
+      "dir": "153-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.1 污泥机械脱水的设计应符合下列规定：",
+      "level": 1,
+      "file": "154-851-污泥机械脱水的设计应符合下列规定.md",
+      "dir": "154-851-污泥机械脱水的设计应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.2 污泥在脱水前应加药调理，并应符合下列规定：",
+      "level": 1,
+      "file": "155-852-污泥在脱水前应加药调理并应符合下列规定.md",
+      "dir": "155-852-污泥在脱水前应加药调理并应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ压滤机",
+      "level": 1,
+      "file": "156-Ⅱ压滤机.md",
+      "dir": "156-Ⅱ压滤机",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.4 带式压滤机的设计应符合下列规定：",
+      "level": 1,
+      "file": "157-854-带式压滤机的设计应符合下列规定.md",
+      "dir": "157-854-带式压滤机的设计应符合下列规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 离心机",
+      "level": 1,
+      "file": "158-Ⅲ-离心机.md",
+      "dir": "158-Ⅲ-离心机",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.6 污泥石灰稳定",
+      "level": 1,
+      "file": "159-86-污泥石灰稳定.md",
+      "dir": "159-86-污泥石灰稳定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.7 污泥干化",
+      "level": 1,
+      "file": "160-87-污泥干化.md",
+      "dir": "160-87-污泥干化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.8 污泥焚烧",
+      "level": 1,
+      "file": "161-88-污泥焚烧.md",
+      "dir": "161-88-污泥焚烧",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.9 污泥处置和综合利用",
+      "level": 1,
+      "file": "162-89-污泥处置和综合利用.md",
+      "dir": "162-89-污泥处置和综合利用",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.10 污泥输送和贮存",
+      "level": 1,
+      "file": "163-810-污泥输送和贮存.md",
+      "dir": "163-810-污泥输送和贮存",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.11 除臭",
+      "level": 1,
+      "file": "164-811-除臭.md",
+      "dir": "164-811-除臭",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "165-I-一般规定.md",
+      "dir": "165-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 臭气源加盖",
+      "level": 1,
+      "file": "166-Ⅱ-臭气源加盖.md",
+      "dir": "166-Ⅱ-臭气源加盖",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ臭气收集",
+      "level": 1,
+      "file": "167-Ⅲ臭气收集.md",
+      "dir": "167-Ⅲ臭气收集",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅳ臭气处理",
+      "level": 1,
+      "file": "168-Ⅳ臭气处理.md",
+      "dir": "168-Ⅳ臭气处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V臭气排放",
+      "level": 1,
+      "file": "169-V臭气排放.md",
+      "dir": "169-V臭气排放",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9 检测和控制",
+      "level": 1,
+      "file": "170-9-检测和控制.md",
+      "dir": "170-9-检测和控制",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.1 一般规定",
+      "level": 1,
+      "file": "171-91-一般规定.md",
+      "dir": "171-91-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.2 检 测",
+      "level": 1,
+      "file": "172-92-检-测.md",
+      "dir": "172-92-检-测",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.3 自动化",
+      "level": 1,
+      "file": "173-93-自动化.md",
+      "dir": "173-93-自动化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.4 信息化",
+      "level": 1,
+      "file": "174-94-信息化.md",
+      "dir": "174-94-信息化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.5 智能化",
+      "level": 1,
+      "file": "175-95-智能化.md",
+      "dir": "175-95-智能化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.6 智慧排水系统",
+      "level": 1,
+      "file": "176-96-智慧排水系统.md",
+      "dir": "176-96-智慧排水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录A 年径流总量控制率对应的设计降雨量计算方法",
+      "level": 1,
+      "file": "177-附录A-年径流总量控制率对应的设计降雨量计算方法.md",
+      "dir": "177-附录A-年径流总量控制率对应的设计降雨量计算方法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录B 暴雨强度公式的编制方法",
+      "level": 1,
+      "file": "178-附录B-暴雨强度公式的编制方法.md",
+      "dir": "178-附录B-暴雨强度公式的编制方法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 年最大值法取样",
+      "level": 1,
+      "file": "179-I-年最大值法取样.md",
+      "dir": "179-I-年最大值法取样",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 年多个样法取样",
+      "level": 1,
+      "file": "180-Ⅱ-年多个样法取样.md",
+      "dir": "180-Ⅱ-年多个样法取样",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录C 排水管道和其他地下管线(构筑物)的最小净距",
+      "level": 1,
+      "file": "181-附录C-排水管道和其他地下管线构筑物的最小净距.md",
+      "dir": "181-附录C-排水管道和其他地下管线构筑物的最小净距",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "本标准用词说明",
+      "level": 1,
+      "file": "182-本标准用词说明.md",
+      "dir": "182-本标准用词说明",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "引用标准名录",
+      "level": 1,
+      "file": "183-引用标准名录.md",
+      "dir": "183-引用标准名录",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "中华人民共和国国家标准",
+      "level": 1,
+      "file": "184-中华人民共和国国家标准.md",
+      "dir": "184-中华人民共和国国家标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "室外排水设计标准",
+      "level": 1,
+      "file": "185-室外排水设计标准.md",
+      "dir": "185-室外排水设计标准",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "编制说明",
+      "level": 1,
+      "file": "186-编制说明.md",
+      "dir": "186-编制说明",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "目次",
+      "level": 1,
+      "file": "187-目次.md",
+      "dir": "187-目次",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "1 总 则 ………………………………………… (119)",
+      "level": 1,
+      "file": "188-1-总-则-119.md",
+      "dir": "188-1-总-则-119",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3 排水工程 (123)",
+      "level": 1,
+      "file": "189-3-排水工程-123.md",
+      "dir": "189-3-排水工程-123",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4 设计流量和设计水质 (130)",
+      "level": 1,
+      "file": "190-4-设计流量和设计水质-130.md",
+      "dir": "190-4-设计流量和设计水质-130",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5 排水管渠和附属构筑物 (148)",
+      "level": 1,
+      "file": "191-5-排水管渠和附属构筑物-148.md",
+      "dir": "191-5-排水管渠和附属构筑物-148",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6泵 站 (171)",
+      "level": 1,
+      "file": "192-6泵-站-171.md",
+      "dir": "192-6泵-站-171",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7 污水和再生水处理 (181)",
+      "level": 1,
+      "file": "193-7-污水和再生水处理-181.md",
+      "dir": "193-7-污水和再生水处理-181",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8 污泥处理和处置 (235)",
+      "level": 1,
+      "file": "194-8-污泥处理和处置-235.md",
+      "dir": "194-8-污泥处理和处置-235",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9 检测和控制 (265)",
+      "level": 1,
+      "file": "195-9-检测和控制-265.md",
+      "dir": "195-9-检测和控制-265",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录A 年径流总量控制率对应的设计降雨量计算方法 (273)",
+      "level": 1,
+      "file": "196-附录A-年径流总量控制率对应的设计降雨量计算方法-273.md",
+      "dir": "196-附录A-年径流总量控制率对应的设计降雨量计算方法-273",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "1 总 则",
+      "level": 1,
+      "file": "197-1-总-则.md",
+      "dir": "197-1-总-则",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "1.0.2 本条规定了本标准的适用范围。",
+      "level": 1,
+      "file": "198-102-本条规定了本标准的适用范围.md",
+      "dir": "198-102-本条规定了本标准的适用范围",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3 排水工程",
+      "level": 1,
+      "file": "199-3-排水工程.md",
+      "dir": "199-3-排水工程",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.1 一般规定",
+      "level": 1,
+      "file": "200-31-一般规定.md",
+      "dir": "200-31-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.2 雨水系统",
+      "level": 1,
+      "file": "201-32-雨水系统.md",
+      "dir": "201-32-雨水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "3.3 污水系统",
+      "level": 1,
+      "file": "202-33-污水系统.md",
+      "dir": "202-33-污水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4 设计流量和设计水质",
+      "level": 1,
+      "file": "203-4-设计流量和设计水质.md",
+      "dir": "203-4-设计流量和设计水质",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.1 设计流量",
+      "level": 1,
+      "file": "204-41-设计流量.md",
+      "dir": "204-41-设计流量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 雨水量",
+      "level": 1,
+      "file": "205-I-雨水量.md",
+      "dir": "205-I-雨水量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ污水量",
+      "level": 1,
+      "file": "206-Ⅱ污水量.md",
+      "dir": "206-Ⅱ污水量",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.2 设计水质",
+      "level": 1,
+      "file": "207-42-设计水质.md",
+      "dir": "207-42-设计水质",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4.2.2 本条根据国内污水厂的运行数据，提出以下规定：",
+      "level": 1,
+      "file": "208-422-本条根据国内污水厂的运行数据提出以下规定.md",
+      "dir": "208-422-本条根据国内污水厂的运行数据提出以下规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5 排水管渠和附属构筑物",
+      "level": 1,
+      "file": "209-5-排水管渠和附属构筑物.md",
+      "dir": "209-5-排水管渠和附属构筑物",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.1 一般规定",
+      "level": 1,
+      "file": "210-51-一般规定.md",
+      "dir": "210-51-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.2 水力计算",
+      "level": 1,
+      "file": "211-52-水力计算.md",
+      "dir": "211-52-水力计算",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.3 管道",
+      "level": 1,
+      "file": "212-53-管道.md",
+      "dir": "212-53-管道",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.4 检查井",
+      "level": 1,
+      "file": "213-54-检查井.md",
+      "dir": "213-54-检查井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.4.5 在设计检查井时尚应注意以下问题：",
+      "level": 1,
+      "file": "214-545-在设计检查井时尚应注意以下问题.md",
+      "dir": "214-545-在设计检查井时尚应注意以下问题",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.5 跌水井",
+      "level": 1,
+      "file": "215-55-跌水井.md",
+      "dir": "215-55-跌水井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.6 水封井",
+      "level": 1,
+      "file": "216-56-水封井.md",
+      "dir": "216-56-水封井",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.7 雨水口",
+      "level": 1,
+      "file": "217-57-雨水口.md",
+      "dir": "217-57-雨水口",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.8 截流设施",
+      "level": 1,
+      "file": "218-58-截流设施.md",
+      "dir": "218-58-截流设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.9 出水口",
+      "level": 1,
+      "file": "219-59-出水口.md",
+      "dir": "219-59-出水口",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.9.1 雨水排水管渠出水口的设计要求：",
+      "level": 1,
+      "file": "220-591-雨水排水管渠出水口的设计要求.md",
+      "dir": "220-591-雨水排水管渠出水口的设计要求",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.10 立体交叉道路排水",
+      "level": 1,
+      "file": "221-510-立体交叉道路排水.md",
+      "dir": "221-510-立体交叉道路排水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.10.1 立体交叉道路分为高架道路和下穿立交道路两种, 其排",
+      "level": 1,
+      "file": "222-5101-立体交叉道路分为高架道路和下穿立交道路两种-其排.md",
+      "dir": "222-5101-立体交叉道路分为高架道路和下穿立交道路两种-其排",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.11 倒虹管",
+      "level": 1,
+      "file": "223-511-倒虹管.md",
+      "dir": "223-511-倒虹管",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.12 渗透管渠",
+      "level": 1,
+      "file": "224-512-渗透管渠.md",
+      "dir": "224-512-渗透管渠",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.13 渠 道",
+      "level": 1,
+      "file": "225-513-渠-道.md",
+      "dir": "225-513-渠-道",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.14 雨水调蓄设施",
+      "level": 1,
+      "file": "226-514-雨水调蓄设施.md",
+      "dir": "226-514-雨水调蓄设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "5.15 管道综合",
+      "level": 1,
+      "file": "227-515-管道综合.md",
+      "dir": "227-515-管道综合",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6泵站",
+      "level": 1,
+      "file": "228-6泵站.md",
+      "dir": "228-6泵站",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.1 一般规定",
+      "level": 1,
+      "file": "229-61-一般规定.md",
+      "dir": "229-61-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.2 设计流量和设计扬程",
+      "level": 1,
+      "file": "230-62-设计流量和设计扬程.md",
+      "dir": "230-62-设计流量和设计扬程",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.3 集水池",
+      "level": 1,
+      "file": "231-63-集水池.md",
+      "dir": "231-63-集水池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.4 泵房设计",
+      "level": 1,
+      "file": "232-64-泵房设计.md",
+      "dir": "232-64-泵房设计",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I水泵配置",
+      "level": 1,
+      "file": "233-I水泵配置.md",
+      "dir": "233-I水泵配置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.4.1 本条是关于水泵选择的规定。",
+      "level": 1,
+      "file": "234-641-本条是关于水泵选择的规定.md",
+      "dir": "234-641-本条是关于水泵选择的规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ泵房",
+      "level": 1,
+      "file": "235-Ⅱ泵房.md",
+      "dir": "235-Ⅱ泵房",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "6.5 出水设施",
+      "level": 1,
+      "file": "236-65-出水设施.md",
+      "dir": "236-65-出水设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7 污水和再生水处理",
+      "level": 1,
+      "file": "237-7-污水和再生水处理.md",
+      "dir": "237-7-污水和再生水处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.1 一般规定",
+      "level": 1,
+      "file": "238-71-一般规定.md",
+      "dir": "238-71-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.2 厂址选择和总体布置",
+      "level": 1,
+      "file": "239-72-厂址选择和总体布置.md",
+      "dir": "239-72-厂址选择和总体布置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.3 格栅",
+      "level": 1,
+      "file": "240-73-格栅.md",
+      "dir": "240-73-格栅",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.4 沉砂池",
+      "level": 1,
+      "file": "241-74-沉砂池.md",
+      "dir": "241-74-沉砂池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.5 沉淀池",
+      "level": 1,
+      "file": "242-75-沉淀池.md",
+      "dir": "242-75-沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "243-I-一般规定.md",
+      "dir": "243-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 沉淀池",
+      "level": 1,
+      "file": "244-Ⅱ-沉淀池.md",
+      "dir": "244-Ⅱ-沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 斜管（板）沉淀池",
+      "level": 1,
+      "file": "245-Ⅲ-斜管板沉淀池.md",
+      "dir": "245-Ⅲ-斜管板沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 高效沉淀池",
+      "level": 1,
+      "file": "246-IV-高效沉淀池.md",
+      "dir": "246-IV-高效沉淀池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.6 活性污泥法",
+      "level": 1,
+      "file": "247-76-活性污泥法.md",
+      "dir": "247-76-活性污泥法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "248-I-一般规定.md",
+      "dir": "248-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 传统活性污泥法",
+      "level": 1,
+      "file": "249-Ⅱ-传统活性污泥法.md",
+      "dir": "249-Ⅱ-传统活性污泥法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ厌氧/缺氧/好氧法(AAO或 $\\mathrm{A}^2\\mathrm{O}$ 法）",
+      "level": 1,
+      "file": "250-Ⅲ厌氧缺氧好氧法AAO或-mathrmA2mathrmO-法.md",
+      "dir": "250-Ⅲ厌氧缺氧好氧法AAO或-mathrmA2mathrmO-法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 氧化沟",
+      "level": 1,
+      "file": "251-IV-氧化沟.md",
+      "dir": "251-IV-氧化沟",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V 序批式活性污泥法(SBR)",
+      "level": 1,
+      "file": "252-V-序批式活性污泥法SBR.md",
+      "dir": "252-V-序批式活性污泥法SBR",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "VI 膜生物反应器(MBR)",
+      "level": 1,
+      "file": "253-VI-膜生物反应器MBR.md",
+      "dir": "253-VI-膜生物反应器MBR",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.7 回流污泥和剩余污泥",
+      "level": 1,
+      "file": "254-77-回流污泥和剩余污泥.md",
+      "dir": "254-77-回流污泥和剩余污泥",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.8 生物膜法",
+      "level": 1,
+      "file": "255-78-生物膜法.md",
+      "dir": "255-78-生物膜法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "256-I-一般规定.md",
+      "dir": "256-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "II 生物接触氧化池",
+      "level": 1,
+      "file": "257-II-生物接触氧化池.md",
+      "dir": "257-II-生物接触氧化池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 曝气生物滤池",
+      "level": 1,
+      "file": "258-Ⅲ-曝气生物滤池.md",
+      "dir": "258-Ⅲ-曝气生物滤池",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 生物转盘",
+      "level": 1,
+      "file": "259-IV-生物转盘.md",
+      "dir": "259-IV-生物转盘",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V 移动床生物膜反应器",
+      "level": 1,
+      "file": "260-V-移动床生物膜反应器.md",
+      "dir": "260-V-移动床生物膜反应器",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.9 供氧设施",
+      "level": 1,
+      "file": "261-79-供氧设施.md",
+      "dir": "261-79-供氧设施",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.10 化学除磷",
+      "level": 1,
+      "file": "262-710-化学除磷.md",
+      "dir": "262-710-化学除磷",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11 深度和再生处理",
+      "level": 1,
+      "file": "263-711-深度和再生处理.md",
+      "dir": "263-711-深度和再生处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "264-I-一般规定.md",
+      "dir": "264-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 处理工艺",
+      "level": 1,
+      "file": "265-Ⅱ-处理工艺.md",
+      "dir": "265-Ⅱ-处理工艺",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.11.7 本条是对滤池设计的规定。",
+      "level": 1,
+      "file": "266-7117-本条是对滤池设计的规定.md",
+      "dir": "266-7117-本条是对滤池设计的规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ输配水",
+      "level": 1,
+      "file": "267-Ⅲ输配水.md",
+      "dir": "267-Ⅲ输配水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.12 自然处理",
+      "level": 1,
+      "file": "268-712-自然处理.md",
+      "dir": "268-712-自然处理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "269-I-一般规定.md",
+      "dir": "269-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 人工湿地",
+      "level": 1,
+      "file": "270-Ⅱ-人工湿地.md",
+      "dir": "270-Ⅱ-人工湿地",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 稳定塘",
+      "level": 1,
+      "file": "271-Ⅲ-稳定塘.md",
+      "dir": "271-Ⅲ-稳定塘",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.12.19 本条是关于稳定塘设计的规定。",
+      "level": 1,
+      "file": "272-71219-本条是关于稳定塘设计的规定.md",
+      "dir": "272-71219-本条是关于稳定塘设计的规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "4 本款是关于稳定塘底泥的规定。",
+      "level": 1,
+      "file": "273-4-本款是关于稳定塘底泥的规定.md",
+      "dir": "273-4-本款是关于稳定塘底泥的规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "7.13 消毒",
+      "level": 1,
+      "file": "274-713-消毒.md",
+      "dir": "274-713-消毒",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "275-I-一般规定.md",
+      "dir": "275-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 紫外线",
+      "level": 1,
+      "file": "276-Ⅱ-紫外线.md",
+      "dir": "276-Ⅱ-紫外线",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 二氧化氯、次氯酸钠和氯",
+      "level": 1,
+      "file": "277-Ⅲ-二氧化氯次氯酸钠和氯.md",
+      "dir": "277-Ⅲ-二氧化氯次氯酸钠和氯",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8 污泥处理和处置",
+      "level": 1,
+      "file": "278-8-污泥处理和处置.md",
+      "dir": "278-8-污泥处理和处置",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.1 一般规定",
+      "level": 1,
+      "file": "279-81-一般规定.md",
+      "dir": "279-81-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.2 污泥浓缩",
+      "level": 1,
+      "file": "280-82-污泥浓缩.md",
+      "dir": "280-82-污泥浓缩",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.3 污泥消化",
+      "level": 1,
+      "file": "281-83-污泥消化.md",
+      "dir": "281-83-污泥消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "282-I-一般规定.md",
+      "dir": "282-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 污泥厌氧消化",
+      "level": 1,
+      "file": "283-Ⅱ-污泥厌氧消化.md",
+      "dir": "283-Ⅱ-污泥厌氧消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 污泥好氧消化",
+      "level": 1,
+      "file": "284-Ⅲ-污泥好氧消化.md",
+      "dir": "284-Ⅲ-污泥好氧消化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.4 污泥好氧发酵",
+      "level": 1,
+      "file": "285-84-污泥好氧发酵.md",
+      "dir": "285-84-污泥好氧发酵",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "286-I-一般规定.md",
+      "dir": "286-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ混料系统",
+      "level": 1,
+      "file": "287-Ⅱ混料系统.md",
+      "dir": "287-Ⅱ混料系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 发酵系统",
+      "level": 1,
+      "file": "288-Ⅲ-发酵系统.md",
+      "dir": "288-Ⅲ-发酵系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "IV 供氧系统",
+      "level": 1,
+      "file": "289-IV-供氧系统.md",
+      "dir": "289-IV-供氧系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5 污泥机械脱水",
+      "level": 1,
+      "file": "290-85-污泥机械脱水.md",
+      "dir": "290-85-污泥机械脱水",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "291-I-一般规定.md",
+      "dir": "291-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.2 为了改善污泥的脱水性质，污泥脱水前应加药调理。",
+      "level": 1,
+      "file": "292-852-为了改善污泥的脱水性质污泥脱水前应加药调理.md",
+      "dir": "292-852-为了改善污泥的脱水性质污泥脱水前应加药调理",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅱ 压滤机",
+      "level": 1,
+      "file": "293-Ⅱ-压滤机.md",
+      "dir": "293-Ⅱ-压滤机",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.3 目前，国内用于污水污泥脱水的压滤机有带式压滤机、板框压滤机、厢式压滤机和微孔挤压脱水机。",
+      "level": 1,
+      "file": "294-853-目前国内用于污水污泥脱水的压滤机有带式压滤机板框压滤.md",
+      "dir": "294-853-目前国内用于污水污泥脱水的压滤机有带式压滤机板框压滤",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.5.4 本条是关于带式压滤机设计的规定。",
+      "level": 1,
+      "file": "295-854-本条是关于带式压滤机设计的规定.md",
+      "dir": "295-854-本条是关于带式压滤机设计的规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "Ⅲ 离心机",
+      "level": 1,
+      "file": "296-Ⅲ-离心机.md",
+      "dir": "296-Ⅲ-离心机",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.6 污泥石灰稳定",
+      "level": 1,
+      "file": "297-86-污泥石灰稳定.md",
+      "dir": "297-86-污泥石灰稳定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.7 污泥干化",
+      "level": 1,
+      "file": "298-87-污泥干化.md",
+      "dir": "298-87-污泥干化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.8 污泥焚烧",
+      "level": 1,
+      "file": "299-88-污泥焚烧.md",
+      "dir": "299-88-污泥焚烧",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.9 污泥处置和综合利用",
+      "level": 1,
+      "file": "300-89-污泥处置和综合利用.md",
+      "dir": "300-89-污泥处置和综合利用",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.10 污泥输送和贮存",
+      "level": 1,
+      "file": "301-810-污泥输送和贮存.md",
+      "dir": "301-810-污泥输送和贮存",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "8.11 除臭",
+      "level": 1,
+      "file": "302-811-除臭.md",
+      "dir": "302-811-除臭",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "I 一般规定",
+      "level": 1,
+      "file": "303-I-一般规定.md",
+      "dir": "303-I-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "臭气收集",
+      "level": 1,
+      "file": "304-臭气收集.md",
+      "dir": "304-臭气收集",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "V臭气排放",
+      "level": 1,
+      "file": "305-V臭气排放.md",
+      "dir": "305-V臭气排放",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9 检测和控制",
+      "level": 1,
+      "file": "306-9-检测和控制.md",
+      "dir": "306-9-检测和控制",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.1 一般规定",
+      "level": 1,
+      "file": "307-91-一般规定.md",
+      "dir": "307-91-一般规定",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.2 检 测",
+      "level": 1,
+      "file": "308-92-检-测.md",
+      "dir": "308-92-检-测",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.2.1 污水厂进水应检测流量、温度、pH值、COD和氨氮 $\\mathrm{(NH_3 - N)}$ 和其他相关水质参数。",
+      "level": 1,
+      "file": "309-921-污水厂进水应检测流量温度pH值COD和氨氮-math.md",
+      "dir": "309-921-污水厂进水应检测流量温度pH值COD和氨氮-math",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.3 自动化",
+      "level": 1,
+      "file": "310-93-自动化.md",
+      "dir": "310-93-自动化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.4 信息化",
+      "level": 1,
+      "file": "311-94-信息化.md",
+      "dir": "311-94-信息化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.5 智能化",
+      "level": 1,
+      "file": "312-95-智能化.md",
+      "dir": "312-95-智能化",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "9.6 智慧排水系统",
+      "level": 1,
+      "file": "313-96-智慧排水系统.md",
+      "dir": "313-96-智慧排水系统",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    },
+    {
+      "title": "附录A 年径流总量控制率对应的设计降雨量计算方法",
+      "level": 1,
+      "file": "314-附录A-年径流总量控制率对应的设计降雨量计算方法.md",
+      "dir": "314-附录A-年径流总量控制率对应的设计降雨量计算方法",
+      "page_start": null,
+      "page_end": null,
+      "children": []
+    }
+  ]
+}

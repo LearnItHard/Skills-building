@@ -1,0 +1,410 @@
+[
+  {
+    "clause": "4.1.3",
+    "caption": "的规定取值，并明确相应的设计降雨强度，且应符合下列规定：",
+    "file": "52-I-雨水量.md",
+    "table_number": "4.1.3"
+  },
+  {
+    "clause": "4.1.4",
+    "caption": "的要求时，应采取渗透、调蓄、设置行泄通道和内河整治等措施；",
+    "file": "52-I-雨水量.md",
+    "table_number": "4.1.4"
+  },
+  {
+    "clause": "4.1.5",
+    "caption": "的规定。人口密集、内涝易发、特别重要且经济条件较好的城区，最大允许退水时间应采用规定的下限。交通枢纽的最大允许退水时间应为 $0.5\\mathrm{h}$ 。",
+    "file": "52-I-雨水量.md",
+    "table_number": "4.1.5"
+  },
+  {
+    "clause": "4.1.8",
+    "caption": "-1 径流系数",
+    "file": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径.md",
+    "table_number": "4.1.8"
+  },
+  {
+    "clause": "4.1.8",
+    "caption": "-2 综合径流系数",
+    "file": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径.md",
+    "table_number": "4.1.8"
+  },
+  {
+    "clause": "4.1.15",
+    "caption": "的规定取值；改、扩建项目可根据实际条件，经实际流量分析后确定，也可按表4.1.15的规定，分期扩建。",
+    "file": "56-Ⅱ污水量.md",
+    "table_number": "4.1.15"
+  },
+  {
+    "clause": "5.2.3",
+    "caption": "的规定取值。",
+    "file": "60-52-水力计算.md",
+    "table_number": "5.2.3"
+  },
+  {
+    "clause": "5.2.4",
+    "caption": "的规定取值。",
+    "file": "60-52-水力计算.md",
+    "table_number": "5.2.4"
+  },
+  {
+    "clause": "5.2.6",
+    "caption": "的规定取值。",
+    "file": "60-52-水力计算.md",
+    "table_number": "5.2.6"
+  },
+  {
+    "clause": "5.2.8",
+    "caption": "的规定取值。",
+    "file": "61-528-压力输泥管的最小设计流速可按表528的规定取值.md",
+    "table_number": "5.2.8"
+  },
+  {
+    "clause": "5.2.10",
+    "caption": "的规定取值。",
+    "file": "61-528-压力输泥管的最小设计流速可按表528的规定取值.md",
+    "table_number": "5.2.10"
+  },
+  {
+    "clause": "5.4.4",
+    "caption": "的规定取值。无法实施机械养护的区域，检查井的间距不宜大于 $40\\mathrm{m}$ 。",
+    "file": "63-54-检查井.md",
+    "table_number": "5.4.4"
+  },
+  {
+    "clause": "5.13.2",
+    "caption": "的规定取值；用砖石或混凝土块铺砌的明渠可采用 $1:0.75 \\sim 1:1$ 的边坡。",
+    "file": "73-513-渠-道.md",
+    "table_number": "5.13.2"
+  },
+  {
+    "clause": "7.1.2",
+    "caption": "的规定取值。",
+    "file": "87-71-一般规定.md",
+    "table_number": "7.1.2"
+  },
+  {
+    "clause": "7.5.1",
+    "caption": "的规定取值。合建式完全混合生物反应池沉淀区的表面水力负荷宜按本标准第7.6.15条的规定取值。",
+    "file": "92-I-一般规定.md",
+    "table_number": "7.5.1"
+  },
+  {
+    "clause": "7.6.9",
+    "caption": "的规定取值。",
+    "file": "103-Ⅱ-传统活性污泥法.md",
+    "table_number": "7.6.9"
+  },
+  {
+    "clause": "7.6.17",
+    "caption": "的规定取值。",
+    "file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
+    "table_number": "7.6.17"
+  },
+  {
+    "clause": "7.6.17",
+    "caption": "",
+    "file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
+    "table_number": "7.6.17"
+  },
+  {
+    "clause": "7.6.18",
+    "caption": "的规定取值。",
+    "file": "108-7618-当仅需除磷时宜采用厌氧好氧法-mathrmA_PO.md",
+    "table_number": "7.6.18"
+  },
+  {
+    "clause": "7.6.18",
+    "caption": "",
+    "file": "108-7618-当仅需除磷时宜采用厌氧好氧法-mathrmA_PO.md",
+    "table_number": "7.6.18"
+  },
+  {
+    "clause": "7.6.19",
+    "caption": "的规定取值；",
+    "file": "109-7619-当需要同时脱氮除磷时宜采用厌氧缺氧好氧法AAO或-.md",
+    "table_number": "7.6.19"
+  },
+  {
+    "clause": "7.6.19",
+    "caption": "",
+    "file": "109-7619-当需要同时脱氮除磷时宜采用厌氧缺氧好氧法AAO或-.md",
+    "table_number": "7.6.19"
+  },
+  {
+    "clause": "7.6.24",
+    "caption": "的规定取值。",
+    "file": "110-IV-氧化沟.md",
+    "table_number": "7.6.24"
+  },
+  {
+    "clause": "7.6.24",
+    "caption": "",
+    "file": "110-IV-氧化沟.md",
+    "table_number": "7.6.24"
+  },
+  {
+    "clause": "7.6.42",
+    "caption": "的规定取值。",
+    "file": "112-VI-膜生物反应器MBR.md",
+    "table_number": "7.6.42"
+  },
+  {
+    "clause": "7.6.42",
+    "caption": "",
+    "file": "112-VI-膜生物反应器MBR.md",
+    "table_number": "7.6.42"
+  },
+  {
+    "clause": "7.8.21",
+    "caption": "取值。",
+    "file": "117-Ⅲ-曝气生物滤池.md",
+    "table_number": "7.8.21"
+  },
+  {
+    "clause": "7.8.21",
+    "caption": "",
+    "file": "117-Ⅲ-曝气生物滤池.md",
+    "table_number": "7.8.21"
+  },
+  {
+    "clause": "7.12.7",
+    "caption": "的规定取值。",
+    "file": "134-Ⅱ-人工湿地.md",
+    "table_number": "7.12.7"
+  },
+  {
+    "clause": "8.4.3",
+    "caption": "的规定。",
+    "file": "148-I-一般规定.md",
+    "table_number": "8.4.3"
+  },
+  {
+    "clause": "8.5.4",
+    "caption": "的规定取值；",
+    "file": "157-854-带式压滤机的设计应符合下列规定.md",
+    "table_number": "8.5.4"
+  },
+  {
+    "clause": "8.11.8",
+    "caption": "的规定确定。",
+    "file": "167-Ⅲ臭气收集.md",
+    "table_number": "8.11.8"
+  },
+  {
+    "clause": "1",
+    "caption": "所示。不在列表中的城市，可根据当地长期降雨规律和近年气候的变化，按附录A进行计算，也可参照与其长期降雨规律相近城市的设计降雨量值。",
+    "file": "205-I-雨水量.md",
+    "table_number": "1"
+  },
+  {
+    "clause": "1",
+    "caption": "",
+    "file": "205-I-雨水量.md",
+    "table_number": "1"
+  },
+  {
+    "clause": "2",
+    "caption": "是以上海市举例说明。",
+    "file": "205-I-雨水量.md",
+    "table_number": "2"
+  },
+  {
+    "clause": "3",
+    "caption": "发达国家和地区排水管渠设计重现期",
+    "file": "205-I-雨水量.md",
+    "table_number": "3"
+  },
+  {
+    "clause": "4",
+    "caption": "和表5。在该标准中，“设计暴雨重现期”与我国雨水管渠设计重现期相对应；“设计洪水重现期”与我国的内涝防治设计重现期概念相近。",
+    "file": "205-I-雨水量.md",
+    "table_number": "4"
+  },
+  {
+    "clause": "5",
+    "caption": "欧盟推荐设计洪水重现期(Design Flooding Frequency)",
+    "file": "205-I-雨水量.md",
+    "table_number": "5"
+  },
+  {
+    "clause": "4.1.8",
+    "caption": "-1列出按地面种类分列的径流系数，表4.1.8-2列出按区域情况分列的综合径流系数。国内一些地区采用的综合径流系数见表6，《日本指南》推荐的综合径流系数见表7。",
+    "file": "205-I-雨水量.md",
+    "table_number": "4.1.8"
+  },
+  {
+    "clause": "7",
+    "caption": "《日本指南》推荐的综合径流系数",
+    "file": "205-I-雨水量.md",
+    "table_number": "7"
+  },
+  {
+    "clause": "8",
+    "caption": "。",
+    "file": "205-I-雨水量.md",
+    "table_number": "8"
+  },
+  {
+    "clause": "9",
+    "caption": "中的流量。美国加州规定 $K$ 值不低于1.8；美国有10个州和加拿大萨斯喀彻温省采用Harrmon公式，加拿大萨斯喀彻温省规定 $K$ 值不低于2.5；日本和加拿大安大略省采用Rabbitt公式，且",
+    "file": "206-Ⅱ污水量.md",
+    "table_number": "9"
+  },
+  {
+    "clause": "10",
+    "caption": "。对照其他国家的水质数据，本次修订将所有污染物当量的上下限略做调整。",
+    "file": "207-42-设计水质.md",
+    "table_number": "10"
+  },
+  {
+    "clause": "11",
+    "caption": "。",
+    "file": "211-52-水力计算.md",
+    "table_number": "11"
+  },
+  {
+    "clause": "12",
+    "caption": "所示。",
+    "file": "213-54-检查井.md",
+    "table_number": "12"
+  },
+  {
+    "clause": "13",
+    "caption": "选用。对于阶梯式格栅除污机、回转式固液分离机和转鼓式格栅除污机的栅条间隙或栅孔可按需要确定。",
+    "file": "240-73-格栅.md",
+    "table_number": "13"
+  },
+  {
+    "clause": "14",
+    "caption": "。",
+    "file": "240-73-格栅.md",
+    "table_number": "14"
+  },
+  {
+    "clause": "15",
+    "caption": "曝气沉砂池设计数据",
+    "file": "241-74-沉砂池.md",
+    "table_number": "15"
+  },
+  {
+    "clause": "15",
+    "caption": "",
+    "file": "241-74-沉砂池.md",
+    "table_number": "15"
+  },
+  {
+    "clause": "16",
+    "caption": "。",
+    "file": "241-74-沉砂池.md",
+    "table_number": "16"
+  },
+  {
+    "clause": "17",
+    "caption": "为国外有关表面水",
+    "file": "243-I-一般规定.md",
+    "table_number": "17"
+  },
+  {
+    "clause": "18",
+    "caption": "。",
+    "file": "257-II-生物接触氧化池.md",
+    "table_number": "18"
+  },
+  {
+    "clause": "18",
+    "caption": "",
+    "file": "257-II-生物接触氧化池.md",
+    "table_number": "18"
+  },
+  {
+    "clause": "19",
+    "caption": "，此表摘自欧盟标准BS EN 1225-7：2002《污水处理厂第7部分：生物膜法》。",
+    "file": "257-II-生物接触氧化池.md",
+    "table_number": "19"
+  },
+  {
+    "clause": "20",
+    "caption": "常用滤料的物理特性",
+    "file": "258-Ⅲ-曝气生物滤池.md",
+    "table_number": "20"
+  },
+  {
+    "clause": "21",
+    "caption": ", 此表摘自欧盟标准 BS EN 1225-7:2002《污水处理厂 第 7 部分: 生物膜法》。",
+    "file": "259-IV-生物转盘.md",
+    "table_number": "21"
+  },
+  {
+    "clause": "22",
+    "caption": "为几种稳定塘的典型设计参数。",
+    "file": "271-Ⅲ-稳定塘.md",
+    "table_number": "22"
+  },
+  {
+    "clause": "23",
+    "caption": "。",
+    "file": "276-Ⅱ-紫外线.md",
+    "table_number": "23"
+  },
+  {
+    "clause": "24",
+    "caption": "。",
+    "file": "276-Ⅱ-紫外线.md",
+    "table_number": "24"
+  },
+  {
+    "clause": "25",
+    "caption": "。",
+    "file": "280-82-污泥浓缩.md",
+    "table_number": "25"
+  },
+  {
+    "clause": "26",
+    "caption": "是我国和美国厌氧消化系统的主要设计参数对比表。",
+    "file": "283-Ⅱ-污泥厌氧消化.md",
+    "table_number": "26"
+  },
+  {
+    "clause": "27",
+    "caption": "是日本厌氧消化系统设计和运行参数统计表。",
+    "file": "283-Ⅱ-污泥厌氧消化.md",
+    "table_number": "27"
+  },
+  {
+    "clause": "28",
+    "caption": "是我国部分厌氧消化池的主要设计参数。",
+    "file": "283-Ⅱ-污泥厌氧消化.md",
+    "table_number": "28"
+  },
+  {
+    "clause": "29",
+    "caption": "是我国部分高含固厌氧消化池的主要设计参数。",
+    "file": "283-Ⅱ-污泥厌氧消化.md",
+    "table_number": "29"
+  },
+  {
+    "clause": "30",
+    "caption": "。",
+    "file": "284-Ⅲ-污泥好氧消化.md",
+    "table_number": "30"
+  },
+  {
+    "clause": "31",
+    "caption": "执行。",
+    "file": "309-921-污水厂进水应检测流量温度pH值COD和氨氮-math.md",
+    "table_number": "31"
+  },
+  {
+    "clause": "31",
+    "caption": "",
+    "file": "309-921-污水厂进水应检测流量温度pH值COD和氨氮-math.md",
+    "table_number": "31"
+  },
+  {
+    "clause": "32",
+    "caption": "确定检测项目。",
+    "file": "309-921-污水厂进水应检测流量温度pH值COD和氨氮-math.md",
+    "table_number": "32"
+  }
+]
