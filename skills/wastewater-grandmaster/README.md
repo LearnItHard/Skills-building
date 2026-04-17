@@ -4,10 +4,12 @@ Grandmaster-level engineering assistant for **GB 50014-2021 室外排水设计�
 
 ## Features
 
-- **314 canonical GB 50014-2021 chapters** with structured indexes
+- **Compact GB 50014-2021 reference bundle** with structured indexes and full-text source
 - **11 calculation scripts** covering hydraulics, storm/sewage flow, pumps, treatment, sludge, sponge city, clearance, and monitoring
 - **Typed rule engine** evaluating 14 legal mandatory clauses and ~2048 design rules
 - **Unit-tracked, citation-enriched JSON outputs** from every script
+
+The references were intentionally repackaged into a small number of files so OpenClaw and similar installers do not fail on excessive per-skill file counts.
 
 ## Installation
 
@@ -122,7 +124,10 @@ wastewater-grandmaster/
 │   └── rule_engine.py
 ├── tests/                       # pytest test files
 ├── references/                  # GB 50014-2021 data
-│   ├── gb50014-2021/            # 314 canonical chapters
+│   ├── gb50014-2021/            # compact reference bundle
+│   │   ├── gb50014-2021-full.md
+│   │   ├── appendix-c-clearance.md
+│   │   └── index.json
 │   ├── glossary.json
 │   ├── formula_index.json
 │   ├── table_index.json

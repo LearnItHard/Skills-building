@@ -1,1117 +1,1129 @@
-[
-  {
-    "clause": "4.1.7",
-    "latex": "Q _ {s} = q \\Psi F \\tag {4.1.7}",
-    "variables": [
-      {
-        "symbol": "q",
-        "unit": "",
-        "meaning": "设计暴雨强度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "汇水面积"
-      }
-    ],
-    "source_file": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径.md",
-    "domain": "雨水设计"
-  },
-  {
-    "clause": "4.1.9",
-    "latex": "q = \\frac {1 6 7 A _ {1} (1 + C \\lg P)}{(t + b) ^ {n}} \\tag {4.1.9}",
-    "variables": [
-      {
-        "symbol": "q",
-        "unit": "",
-        "meaning": "设计暴雨强度"
-      },
-      {
-        "symbol": "P",
-        "unit": "",
-        "meaning": "设计重现期(年)；"
-      }
-    ],
-    "source_file": "54-419-设计暴雨强度应按下式计算.md",
-    "domain": "雨水设计"
-  },
-  {
-    "clause": "4.1.11",
-    "latex": "t = t _ {1} + t _ {2} \\tag {4.1.11}",
-    "variables": [
-      {
-        "symbol": "t_1",
-        "unit": "",
-        "meaning": "地面集水时间（min），应根据汇水距离、地形坡度和地"
-      },
-      {
-        "symbol": "t_2",
-        "unit": "",
-        "meaning": "管渠内雨水流行时间（min）。"
-      }
-    ],
-    "source_file": "55-4110-暴雨强度公式应根据气候变化进行修订.md",
-    "domain": "雨水设计"
-  },
-  {
-    "clause": "4.1.13",
-    "latex": "Q _ {\\mathrm {d r}} = K Q _ {\\mathrm {d}} + K ^ {\\prime} Q _ {\\mathrm {m}} + Q _ {\\mathrm {u}} \\tag {4.1.13}",
-    "variables": [
-      {
-        "symbol": "K",
-        "unit": "",
-        "meaning": "综合生活污水量变化系数；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计流量"
-      },
-      {
-        "symbol": "n_0",
-        "unit": "",
-        "meaning": "截流倍数。"
-      }
-    ],
-    "source_file": "56-Ⅱ污水量.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "4.1.22",
-    "latex": "Q = Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}} + Q _ {\\mathrm {s}} \\tag {4.1.22}",
-    "variables": [
-      {
-        "symbol": "K",
-        "unit": "",
-        "meaning": "综合生活污水量变化系数；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计流量"
-      },
-      {
-        "symbol": "n_0",
-        "unit": "",
-        "meaning": "截流倍数。"
-      }
-    ],
-    "source_file": "56-Ⅱ污水量.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "4.1.23",
-    "latex": "Q ^ {\\prime} = \\left(n _ {0} + 1\\right) \\times \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {4.1.23}",
-    "variables": [
-      {
-        "symbol": "K",
-        "unit": "",
-        "meaning": "综合生活污水量变化系数；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计流量"
-      },
-      {
-        "symbol": "n_0",
-        "unit": "",
-        "meaning": "截流倍数。"
-      }
-    ],
-    "source_file": "56-Ⅱ污水量.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "5.2.1",
-    "latex": "Q = A v \\tag {5.2.1}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计流量"
-      },
-      {
-        "symbol": "A",
-        "unit": "",
-        "meaning": "水流有效断面面积"
-      },
-      {
-        "symbol": "v",
-        "unit": "",
-        "meaning": "流速"
-      },
-      {
-        "symbol": "v",
-        "unit": "",
-        "meaning": "流速"
-      },
-      {
-        "symbol": "R",
-        "unit": "",
-        "meaning": "水力半径"
-      },
-      {
-        "symbol": "I",
-        "unit": "",
-        "meaning": "水力坡降；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "粗糙系数。"
-      }
-    ],
-    "source_file": "60-52-水力计算.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "5.2.2",
-    "latex": "v = \\frac {1}{n} R ^ {\\frac {2}{3}} I ^ {\\frac {1}{2}} \\tag {5.2.2}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计流量"
-      },
-      {
-        "symbol": "A",
-        "unit": "",
-        "meaning": "水流有效断面面积"
-      },
-      {
-        "symbol": "v",
-        "unit": "",
-        "meaning": "流速"
-      },
-      {
-        "symbol": "v",
-        "unit": "",
-        "meaning": "流速"
-      },
-      {
-        "symbol": "R",
-        "unit": "",
-        "meaning": "水力半径"
-      },
-      {
-        "symbol": "I",
-        "unit": "",
-        "meaning": "水力坡降；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "粗糙系数。"
-      }
-    ],
-    "source_file": "60-52-水力计算.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "6.2.3-1",
-    "latex": "Q _ {\\mathrm {p}} = Q _ {\\mathrm {s}} - n _ {0} \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {6.2.3-1}",
-    "variables": [
-      {
-        "symbol": "n_0",
-        "unit": "",
-        "meaning": "截流倍数；"
-      }
-    ],
-    "source_file": "80-62-设计流量和设计扬程.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "6.2.3-2",
-    "latex": "Q _ {\\mathrm {p}} = (n _ {0} + 1) \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {6.2.3-2}",
-    "variables": [
-      {
-        "symbol": "n_0",
-        "unit": "",
-        "meaning": "截流倍数；"
-      }
-    ],
-    "source_file": "80-62-设计流量和设计扬程.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.10-1",
-    "latex": "V = \\frac {Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right)}{1 0 0 0 L _ {\\mathrm {s}} X} \\tag {7.6.10-1}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      }
-    ],
-    "source_file": "104-7610-当以去除碳源污染物为主时生物反应池的容积可按下列公.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.10-2",
-    "latex": "V = \\frac {Q Y \\theta_ {\\mathrm {C}} \\left(S _ {o} - S _ {\\mathrm {e}}\\right)}{1 0 0 0 X _ {\\mathrm {v}} \\left(1 + K _ {\\mathrm {d}} \\theta_ {\\mathrm {C}}\\right)} \\tag {7.6.10-2}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      }
-    ],
-    "source_file": "104-7610-当以去除碳源污染物为主时生物反应池的容积可按下列公.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.11",
-    "latex": "K _ {\\mathrm {d} T} = K _ {\\mathrm {d} 2 0} \\cdot \\left(\\theta_ {T}\\right) ^ {T - 2 0} \\tag {7.6.11}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      }
-    ],
-    "source_file": "104-7610-当以去除碳源污染物为主时生物反应池的容积可按下列公.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-1",
-    "latex": "V _ {\\mathrm {n}} = \\frac {0 . 0 0 1 Q \\left(N _ {\\mathrm {k}} - N _ {\\mathrm {t e}}\\right) - 0 . 1 2 \\Delta X _ {\\mathrm {V}}}{K _ {\\mathrm {d e}} X} \\tag {7.6.17-1}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-2",
-    "latex": "K _ {\\mathrm {d e} (T)} = K _ {\\mathrm {d e} (2 0)} 1. 0 8 ^ {(T - 2 0)} \\tag {7.6.17-2}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-3",
-    "latex": "\\Delta X _ {\\mathrm {v}} = Y \\frac {Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right)}{1 0 0 0} \\tag {7.6.17-3}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-4",
-    "latex": "V _ {\\circ} = \\frac {Q \\left(S _ {\\circ} - S _ {\\mathrm {e}}\\right) \\theta_ {\\mathrm {c o}} Y _ {\\mathrm {t}}}{1 0 0 0 X} \\tag {7.6.17-4}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-5",
-    "latex": "\\theta_ {\\mathrm {c o}} = F \\frac {1}{\\mu} \\tag {7.6.17-5}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-6",
-    "latex": "\\mu = 0. 4 7 \\frac {N _ {\\mathrm {a}}}{K _ {\\mathrm {n}} + N _ {\\mathrm {a}}} \\mathrm {e} ^ {0. 0 9 8 (T - 1 5)} \\tag {7.6.17-6}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.17-7",
-    "latex": "Q _ {\\mathrm {R} i} = \\frac {1 0 0 0 V _ {\\mathrm {n}} K _ {\\mathrm {d e}} X}{N _ {\\mathrm {t}} - N _ {\\mathrm {k e}}} - Q _ {\\mathrm {R}} \\tag {7.6.17-7}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "F",
-        "unit": "",
-        "meaning": "安全系数，宜为"
-      },
-      {
-        "symbol": "T",
-        "unit": "",
-        "meaning": "设计温度"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "107-7617-当仅需脱氮时宜采用缺氧好氧法-mathrmA_NO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.18",
-    "latex": "V _ {\\mathrm {P}} = \\frac {t _ {\\mathrm {P}} Q}{2 4} \\tag {7.6.18}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      }
-    ],
-    "source_file": "108-7618-当仅需除磷时宜采用厌氧好氧法-mathrmA_PO.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.6.34",
-    "latex": "V = \\frac {2 4 Q S _ {o}}{1 0 0 0 X L _ {\\mathrm {s}} t _ {\\mathrm {R}}} \\tag {7.6.34}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池容积；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "每个周期进水量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "t",
-        "unit": "",
-        "meaning": "一个运行周期所需要的时间(h)；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "每个系列反应池个数。"
-      },
-      {
-        "symbol": "m",
-        "unit": "",
-        "meaning": "充水比，仅需除磷时宜为"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "111-V-序批式活性污泥法SBR.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.6.36-1",
-    "latex": "t _ {\\mathrm {F}} = \\frac {t}{n} \\tag {7.6.36-1}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池容积；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "每个周期进水量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "t",
-        "unit": "",
-        "meaning": "一个运行周期所需要的时间(h)；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "每个系列反应池个数。"
-      },
-      {
-        "symbol": "m",
-        "unit": "",
-        "meaning": "充水比，仅需除磷时宜为"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "111-V-序批式活性污泥法SBR.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.6.36-2",
-    "latex": "t _ {\\mathrm {R}} = \\frac {2 4 S _ {o} m}{1 0 0 0 L _ {\\mathrm {s}} X} \\tag {7.6.36-2}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池容积；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "每个周期进水量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "t",
-        "unit": "",
-        "meaning": "一个运行周期所需要的时间(h)；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "每个系列反应池个数。"
-      },
-      {
-        "symbol": "m",
-        "unit": "",
-        "meaning": "充水比，仅需除磷时宜为"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "111-V-序批式活性污泥法SBR.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.6.36-3",
-    "latex": "t = t _ {\\mathrm {R}} + t _ {\\mathrm {s}} + t _ {\\mathrm {D}} + t _ {\\mathrm {b}} \\tag {7.6.36-3}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池容积；"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "每个周期进水量"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      },
-      {
-        "symbol": "t",
-        "unit": "",
-        "meaning": "一个运行周期所需要的时间(h)；"
-      },
-      {
-        "symbol": "n",
-        "unit": "",
-        "meaning": "每个系列反应池个数。"
-      },
-      {
-        "symbol": "m",
-        "unit": "",
-        "meaning": "充水比，仅需除磷时宜为"
-      },
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池内混合液悬浮固体平均浓度"
-      }
-    ],
-    "source_file": "111-V-序批式活性污泥法SBR.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.7.3-1",
-    "latex": "\\Delta X = \\frac {V \\cdot X}{\\theta_ {\\mathrm {C}}} \\tag {7.7.3-1}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计平均日污水量"
-      },
-      {
-        "symbol": "f",
-        "unit": "",
-        "meaning": "SS的污泥转换率，宜根据试验资料确定，无试验资料时可取"
-      }
-    ],
-    "source_file": "113-77-回流污泥和剩余污泥.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.7.3-2",
-    "latex": "\\Delta X = Y Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) - K _ {\\mathrm {d}} V X _ {\\mathrm {V}} + f Q \\left(S S _ {\\mathrm {o}} - S S _ {\\mathrm {e}}\\right) \\tag {7.7.3-2}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "设计平均日污水量"
-      },
-      {
-        "symbol": "f",
-        "unit": "",
-        "meaning": "SS的污泥转换率，宜根据试验资料确定，无试验资料时可取"
-      }
-    ],
-    "source_file": "113-77-回流污泥和剩余污泥.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "7.9.2",
-    "latex": "\\begin{array}{l} O _ {2} = 0. 0 0 1 a Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) - c \\Delta X _ {\\mathrm {V}} + b [ 0. 0 0 1 Q \\\\ \\left(N _ {\\mathrm {k}} - N _ {\\mathrm {k e}}\\right) - 0. 1 2 \\Delta X _ {\\mathrm {V}} ] - 0. 6 2 b [ 0. 0 0 1 Q \\\\ \\left. \\left(N _ {\\mathrm {t}} - N _ {\\mathrm {k e}} - N _ {\\mathrm {o e}}\\right) - 0. 1 2 \\Delta X _ {\\mathrm {V}} \\right] \\tag {7.9.2} \\\\ \\end{array}",
-    "variables": [
-      {
-        "symbol": "a",
-        "unit": "",
-        "meaning": "碳的氧当量, 当含碳物质以"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的进水流量"
-      },
-      {
-        "symbol": "c",
-        "unit": "",
-        "meaning": "常数, 细菌细胞的氧当量, 应取 1.42;"
-      },
-      {
-        "symbol": "b",
-        "unit": "",
-        "meaning": "常数, 氧化每公斤氨氮所需氧量"
-      }
-    ],
-    "source_file": "120-79-供氧设施.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7.9.4",
-    "latex": "G _ {\\mathrm {s}} = \\frac {O _ {\\mathrm {s}}}{0 . 2 8 E _ {\\mathrm {A}}} \\tag {7.9.4}",
-    "variables": [
-      {
-        "symbol": "a",
-        "unit": "",
-        "meaning": "碳的氧当量, 当含碳物质以"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的进水流量"
-      },
-      {
-        "symbol": "c",
-        "unit": "",
-        "meaning": "常数, 细菌细胞的氧当量, 应取 1.42;"
-      },
-      {
-        "symbol": "b",
-        "unit": "",
-        "meaning": "常数, 氧化每公斤氨氮所需氧量"
-      }
-    ],
-    "source_file": "120-79-供氧设施.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "8.1.4",
-    "latex": "Q _ {\\mathrm {s l}} = Q _ {\\mathrm {p s}} + Q _ {\\mathrm {e s}} + Q _ {\\mathrm {c s}} \\tag {8.1.4}",
-    "variables": [],
-    "source_file": "141-81-一般规定.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "8.3.6-1",
-    "latex": "V = Q _ {\\mathrm {o}} \\cdot t _ {\\mathrm {d}} \\tag {8.3.6-1}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "消化池总有效容积"
-      }
-    ],
-    "source_file": "145-Ⅱ-污泥厌氧消化.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "8.3.6-2",
-    "latex": "V = \\frac {W _ {\\mathrm {s}}}{L _ {\\mathrm {v}}} \\tag {8.3.6-2}",
-    "variables": [
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "消化池总有效容积"
-      }
-    ],
-    "source_file": "145-Ⅱ-污泥厌氧消化.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "8.4.18-1",
-    "latex": "Q = R \\cdot V \\tag {8.4.18-1}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "强制通风量"
-      },
-      {
-        "symbol": "R",
-        "unit": "",
-        "meaning": "单位时间内每立方米物料通风量"
-      },
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "污泥好氧发酵容积"
-      },
-      {
-        "symbol": "P",
-        "unit": "",
-        "meaning": "鼓风风压"
-      }
-    ],
-    "source_file": "151-IV-供氧系统.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "8.4.18-2",
-    "latex": "P = \\left(P _ {1} + P _ {2} + P _ {3}\\right) \\cdot \\lambda \\tag {8.4.18-2}",
-    "variables": [
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "强制通风量"
-      },
-      {
-        "symbol": "R",
-        "unit": "",
-        "meaning": "单位时间内每立方米物料通风量"
-      },
-      {
-        "symbol": "V",
-        "unit": "",
-        "meaning": "污泥好氧发酵容积"
-      },
-      {
-        "symbol": "P",
-        "unit": "",
-        "meaning": "鼓风风压"
-      }
-    ],
-    "source_file": "151-IV-供氧系统.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "A.0.1",
-    "latex": "P _ {i} = \\frac {\\left(X _ {1} + X _ {2} + \\cdots + X _ {i}\\right) + X _ {i} \\times (N - i)}{X _ {1} + X _ {2} + \\cdots + X _ {N}} \\tag {A.0.1}",
-    "variables": [
-      {
-        "symbol": "i",
-        "unit": "",
-        "meaning": "第 1 个、第 2 个、第"
-      },
-      {
-        "symbol": "i",
-        "unit": "",
-        "meaning": "日降雨量序列的累计数。"
-      }
-    ],
-    "source_file": "177-附录A-年径流总量控制率对应的设计降雨量计算方法.md",
-    "domain": "雨水设计"
-  },
-  {
-    "clause": "1",
-    "latex": "\\lg K = - 0. 1 1 5 6 \\lg Q + 0. 5 0 5 2 \\tag {1}",
-    "variables": [],
-    "source_file": "206-Ⅱ污水量.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "2",
-    "latex": "t _ {1} = 1. 4 4 5 \\left(\\frac {n ^ {\\prime} L}{\\sqrt {i}}\\right) ^ {0. 4 6 7} \\tag {2}",
-    "variables": [],
-    "source_file": "222-5101-立体交叉道路分为高架道路和下穿立交道路两种-其排.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "3",
-    "latex": "V = \\frac {Q S _ {o}}{1 0 0 0 L _ {\\mathrm {v}}} \\tag {3}",
-    "variables": [
-      {
-        "symbol": "X",
-        "unit": "",
-        "meaning": "生物反应池的容积"
-      },
-      {
-        "symbol": "Q",
-        "unit": "",
-        "meaning": "生物反应池的设计流量"
-      }
-    ],
-    "source_file": "249-Ⅱ-传统活性污泥法.md",
-    "domain": "污水污泥处理"
-  },
-  {
-    "clause": "4",
-    "latex": "A _ {\\mathrm {e}} = A _ {\\mathrm {r}} - A _ {\\mathrm {o}} + 0. 3 \\times \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) + 3 \\times \\Delta N _ {\\mathrm {d e}} - 7. 1 4 \\times \\Delta N _ {0} \\tag {4}",
-    "variables": [],
-    "source_file": "250-Ⅲ厌氧缺氧好氧法AAO或-mathrmA2mathrmO-法.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "5",
-    "latex": "J _ {\\mathrm {m}} = \\frac {J _ {\\mathrm {o}} \\cdot t _ {\\mathrm {o}}}{t _ {\\mathrm {o}} + t _ {\\mathrm {p}}} \\tag {5}",
-    "variables": [
-      {
-        "symbol": "t_0",
-        "unit": "",
-        "meaning": "产水泵运行时间（min）；"
-      }
-    ],
-    "source_file": "253-VI-膜生物反应器MBR.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "6",
-    "latex": "\\Delta p = \\Delta p _ {1} + h _ {\\mathrm {f} _ {1}} + h _ {\\mathrm {f} _ {2}} + h _ {\\mathrm {f} _ {3}} + \\Delta H \\tag {6}",
-    "variables": [],
-    "source_file": "304-臭气收集.md",
-    "domain": "排水工程"
-  },
-  {
-    "clause": "7",
-    "latex": "\\Delta p _ {0} = \\left(1 + K _ {\\mathrm {p}}\\right) \\Delta p \\frac {\\rho_ {0}}{\\rho} \\tag {7}",
-    "variables": [],
-    "source_file": "304-臭气收集.md",
-    "domain": "排水工程"
-  }
+﻿[
+    {
+        "clause":  "4.1.7",
+        "latex":  "Q _ {s} = q \\Psi F \\tag {4.1.7}",
+        "variables":  [
+                          {
+                              "symbol":  "q",
+                              "unit":  "",
+                              "meaning":  "设计暴雨强度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "汇水面积"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "雨水设计"
+    },
+    {
+        "clause":  "4.1.9",
+        "latex":  "q = \\frac {1 6 7 A _ {1} (1 + C \\lg P)}{(t + b) ^ {n}} \\tag {4.1.9}",
+        "variables":  [
+                          {
+                              "symbol":  "q",
+                              "unit":  "",
+                              "meaning":  "设计暴雨强度"
+                          },
+                          {
+                              "symbol":  "P",
+                              "unit":  "",
+                              "meaning":  "设计重现期(年)；"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "雨水设计"
+    },
+    {
+        "clause":  "4.1.11",
+        "latex":  "t = t _ {1} + t _ {2} \\tag {4.1.11}",
+        "variables":  [
+                          {
+                              "symbol":  "t_1",
+                              "unit":  "",
+                              "meaning":  "地面集水时间（min），应根据汇水距离、地形坡度和地"
+                          },
+                          {
+                              "symbol":  "t_2",
+                              "unit":  "",
+                              "meaning":  "管渠内雨水流行时间（min）。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "雨水设计"
+    },
+    {
+        "clause":  "4.1.13",
+        "latex":  "Q _ {\\mathrm {d r}} = K Q _ {\\mathrm {d}} + K ^ {\\prime} Q _ {\\mathrm {m}} + Q _ {\\mathrm {u}} \\tag {4.1.13}",
+        "variables":  [
+                          {
+                              "symbol":  "K",
+                              "unit":  "",
+                              "meaning":  "综合生活污水量变化系数；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计流量"
+                          },
+                          {
+                              "symbol":  "n_0",
+                              "unit":  "",
+                              "meaning":  "截流倍数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "4.1.22",
+        "latex":  "Q = Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}} + Q _ {\\mathrm {s}} \\tag {4.1.22}",
+        "variables":  [
+                          {
+                              "symbol":  "K",
+                              "unit":  "",
+                              "meaning":  "综合生活污水量变化系数；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计流量"
+                          },
+                          {
+                              "symbol":  "n_0",
+                              "unit":  "",
+                              "meaning":  "截流倍数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "4.1.23",
+        "latex":  "Q ^ {\\prime} = \\left(n _ {0} + 1\\right) \\times \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {4.1.23}",
+        "variables":  [
+                          {
+                              "symbol":  "K",
+                              "unit":  "",
+                              "meaning":  "综合生活污水量变化系数；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计流量"
+                          },
+                          {
+                              "symbol":  "n_0",
+                              "unit":  "",
+                              "meaning":  "截流倍数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "5.2.1",
+        "latex":  "Q = A v \\tag {5.2.1}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计流量"
+                          },
+                          {
+                              "symbol":  "A",
+                              "unit":  "",
+                              "meaning":  "水流有效断面面积"
+                          },
+                          {
+                              "symbol":  "v",
+                              "unit":  "",
+                              "meaning":  "流速"
+                          },
+                          {
+                              "symbol":  "v",
+                              "unit":  "",
+                              "meaning":  "流速"
+                          },
+                          {
+                              "symbol":  "R",
+                              "unit":  "",
+                              "meaning":  "水力半径"
+                          },
+                          {
+                              "symbol":  "I",
+                              "unit":  "",
+                              "meaning":  "水力坡降；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "粗糙系数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "5.2.2",
+        "latex":  "v = \\frac {1}{n} R ^ {\\frac {2}{3}} I ^ {\\frac {1}{2}} \\tag {5.2.2}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计流量"
+                          },
+                          {
+                              "symbol":  "A",
+                              "unit":  "",
+                              "meaning":  "水流有效断面面积"
+                          },
+                          {
+                              "symbol":  "v",
+                              "unit":  "",
+                              "meaning":  "流速"
+                          },
+                          {
+                              "symbol":  "v",
+                              "unit":  "",
+                              "meaning":  "流速"
+                          },
+                          {
+                              "symbol":  "R",
+                              "unit":  "",
+                              "meaning":  "水力半径"
+                          },
+                          {
+                              "symbol":  "I",
+                              "unit":  "",
+                              "meaning":  "水力坡降；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "粗糙系数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "6.2.3-1",
+        "latex":  "Q _ {\\mathrm {p}} = Q _ {\\mathrm {s}} - n _ {0} \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {6.2.3-1}",
+        "variables":  [
+                          {
+                              "symbol":  "n_0",
+                              "unit":  "",
+                              "meaning":  "截流倍数；"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "6.2.3-2",
+        "latex":  "Q _ {\\mathrm {p}} = (n _ {0} + 1) \\left(Q _ {\\mathrm {d}} + Q _ {\\mathrm {m}}\\right) \\tag {6.2.3-2}",
+        "variables":  [
+                          {
+                              "symbol":  "n_0",
+                              "unit":  "",
+                              "meaning":  "截流倍数；"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.10-1",
+        "latex":  "V = \\frac {Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right)}{1 0 0 0 L _ {\\mathrm {s}} X} \\tag {7.6.10-1}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.10-2",
+        "latex":  "V = \\frac {Q Y \\theta_ {\\mathrm {C}} \\left(S _ {o} - S _ {\\mathrm {e}}\\right)}{1 0 0 0 X _ {\\mathrm {v}} \\left(1 + K _ {\\mathrm {d}} \\theta_ {\\mathrm {C}}\\right)} \\tag {7.6.10-2}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.11",
+        "latex":  "K _ {\\mathrm {d} T} = K _ {\\mathrm {d} 2 0} \\cdot \\left(\\theta_ {T}\\right) ^ {T - 2 0} \\tag {7.6.11}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-1",
+        "latex":  "V _ {\\mathrm {n}} = \\frac {0 . 0 0 1 Q \\left(N _ {\\mathrm {k}} - N _ {\\mathrm {t e}}\\right) - 0 . 1 2 \\Delta X _ {\\mathrm {V}}}{K _ {\\mathrm {d e}} X} \\tag {7.6.17-1}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-2",
+        "latex":  "K _ {\\mathrm {d e} (T)} = K _ {\\mathrm {d e} (2 0)} 1. 0 8 ^ {(T - 2 0)} \\tag {7.6.17-2}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-3",
+        "latex":  "\\Delta X _ {\\mathrm {v}} = Y \\frac {Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right)}{1 0 0 0} \\tag {7.6.17-3}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-4",
+        "latex":  "V _ {\\circ} = \\frac {Q \\left(S _ {\\circ} - S _ {\\mathrm {e}}\\right) \\theta_ {\\mathrm {c o}} Y _ {\\mathrm {t}}}{1 0 0 0 X} \\tag {7.6.17-4}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-5",
+        "latex":  "\\theta_ {\\mathrm {c o}} = F \\frac {1}{\\mu} \\tag {7.6.17-5}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-6",
+        "latex":  "\\mu = 0. 4 7 \\frac {N _ {\\mathrm {a}}}{K _ {\\mathrm {n}} + N _ {\\mathrm {a}}} \\mathrm {e} ^ {0. 0 9 8 (T - 1 5)} \\tag {7.6.17-6}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.17-7",
+        "latex":  "Q _ {\\mathrm {R} i} = \\frac {1 0 0 0 V _ {\\mathrm {n}} K _ {\\mathrm {d e}} X}{N _ {\\mathrm {t}} - N _ {\\mathrm {k e}}} - Q _ {\\mathrm {R}} \\tag {7.6.17-7}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "F",
+                              "unit":  "",
+                              "meaning":  "安全系数，宜为"
+                          },
+                          {
+                              "symbol":  "T",
+                              "unit":  "",
+                              "meaning":  "设计温度"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.18",
+        "latex":  "V _ {\\mathrm {P}} = \\frac {t _ {\\mathrm {P}} Q}{2 4} \\tag {7.6.18}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.6.34",
+        "latex":  "V = \\frac {2 4 Q S _ {o}}{1 0 0 0 X L _ {\\mathrm {s}} t _ {\\mathrm {R}}} \\tag {7.6.34}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池容积；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "每个周期进水量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "t",
+                              "unit":  "",
+                              "meaning":  "一个运行周期所需要的时间(h)；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "每个系列反应池个数。"
+                          },
+                          {
+                              "symbol":  "m",
+                              "unit":  "",
+                              "meaning":  "充水比，仅需除磷时宜为"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.6.36-1",
+        "latex":  "t _ {\\mathrm {F}} = \\frac {t}{n} \\tag {7.6.36-1}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池容积；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "每个周期进水量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "t",
+                              "unit":  "",
+                              "meaning":  "一个运行周期所需要的时间(h)；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "每个系列反应池个数。"
+                          },
+                          {
+                              "symbol":  "m",
+                              "unit":  "",
+                              "meaning":  "充水比，仅需除磷时宜为"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.6.36-2",
+        "latex":  "t _ {\\mathrm {R}} = \\frac {2 4 S _ {o} m}{1 0 0 0 L _ {\\mathrm {s}} X} \\tag {7.6.36-2}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池容积；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "每个周期进水量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "t",
+                              "unit":  "",
+                              "meaning":  "一个运行周期所需要的时间(h)；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "每个系列反应池个数。"
+                          },
+                          {
+                              "symbol":  "m",
+                              "unit":  "",
+                              "meaning":  "充水比，仅需除磷时宜为"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.6.36-3",
+        "latex":  "t = t _ {\\mathrm {R}} + t _ {\\mathrm {s}} + t _ {\\mathrm {D}} + t _ {\\mathrm {b}} \\tag {7.6.36-3}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池容积；"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "每个周期进水量"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          },
+                          {
+                              "symbol":  "t",
+                              "unit":  "",
+                              "meaning":  "一个运行周期所需要的时间(h)；"
+                          },
+                          {
+                              "symbol":  "n",
+                              "unit":  "",
+                              "meaning":  "每个系列反应池个数。"
+                          },
+                          {
+                              "symbol":  "m",
+                              "unit":  "",
+                              "meaning":  "充水比，仅需除磷时宜为"
+                          },
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池内混合液悬浮固体平均浓度"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.7.3-1",
+        "latex":  "\\Delta X = \\frac {V \\cdot X}{\\theta_ {\\mathrm {C}}} \\tag {7.7.3-1}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计平均日污水量"
+                          },
+                          {
+                              "symbol":  "f",
+                              "unit":  "",
+                              "meaning":  "SS的污泥转换率，宜根据试验资料确定，无试验资料时可取"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.7.3-2",
+        "latex":  "\\Delta X = Y Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) - K _ {\\mathrm {d}} V X _ {\\mathrm {V}} + f Q \\left(S S _ {\\mathrm {o}} - S S _ {\\mathrm {e}}\\right) \\tag {7.7.3-2}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "设计平均日污水量"
+                          },
+                          {
+                              "symbol":  "f",
+                              "unit":  "",
+                              "meaning":  "SS的污泥转换率，宜根据试验资料确定，无试验资料时可取"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "7.9.2",
+        "latex":  "\\begin{array}{l} O _ {2} = 0. 0 0 1 a Q \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) - c \\Delta X _ {\\mathrm {V}} + b [ 0. 0 0 1 Q \\\\ \\left(N _ {\\mathrm {k}} - N _ {\\mathrm {k e}}\\right) - 0. 1 2 \\Delta X _ {\\mathrm {V}} ] - 0. 6 2 b [ 0. 0 0 1 Q \\\\ \\left. \\left(N _ {\\mathrm {t}} - N _ {\\mathrm {k e}} - N _ {\\mathrm {o e}}\\right) - 0. 1 2 \\Delta X _ {\\mathrm {V}} \\right] \\tag {7.9.2} \\\\ \\end{array}",
+        "variables":  [
+                          {
+                              "symbol":  "a",
+                              "unit":  "",
+                              "meaning":  "碳的氧当量, 当含碳物质以"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的进水流量"
+                          },
+                          {
+                              "symbol":  "c",
+                              "unit":  "",
+                              "meaning":  "常数, 细菌细胞的氧当量, 应取 1.42;"
+                          },
+                          {
+                              "symbol":  "b",
+                              "unit":  "",
+                              "meaning":  "常数, 氧化每公斤氨氮所需氧量"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7.9.4",
+        "latex":  "G _ {\\mathrm {s}} = \\frac {O _ {\\mathrm {s}}}{0 . 2 8 E _ {\\mathrm {A}}} \\tag {7.9.4}",
+        "variables":  [
+                          {
+                              "symbol":  "a",
+                              "unit":  "",
+                              "meaning":  "碳的氧当量, 当含碳物质以"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的进水流量"
+                          },
+                          {
+                              "symbol":  "c",
+                              "unit":  "",
+                              "meaning":  "常数, 细菌细胞的氧当量, 应取 1.42;"
+                          },
+                          {
+                              "symbol":  "b",
+                              "unit":  "",
+                              "meaning":  "常数, 氧化每公斤氨氮所需氧量"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "8.1.4",
+        "latex":  "Q _ {\\mathrm {s l}} = Q _ {\\mathrm {p s}} + Q _ {\\mathrm {e s}} + Q _ {\\mathrm {c s}} \\tag {8.1.4}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "8.3.6-1",
+        "latex":  "V = Q _ {\\mathrm {o}} \\cdot t _ {\\mathrm {d}} \\tag {8.3.6-1}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "消化池总有效容积"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "8.3.6-2",
+        "latex":  "V = \\frac {W _ {\\mathrm {s}}}{L _ {\\mathrm {v}}} \\tag {8.3.6-2}",
+        "variables":  [
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "消化池总有效容积"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "8.4.18-1",
+        "latex":  "Q = R \\cdot V \\tag {8.4.18-1}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "强制通风量"
+                          },
+                          {
+                              "symbol":  "R",
+                              "unit":  "",
+                              "meaning":  "单位时间内每立方米物料通风量"
+                          },
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "污泥好氧发酵容积"
+                          },
+                          {
+                              "symbol":  "P",
+                              "unit":  "",
+                              "meaning":  "鼓风风压"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "8.4.18-2",
+        "latex":  "P = \\left(P _ {1} + P _ {2} + P _ {3}\\right) \\cdot \\lambda \\tag {8.4.18-2}",
+        "variables":  [
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "强制通风量"
+                          },
+                          {
+                              "symbol":  "R",
+                              "unit":  "",
+                              "meaning":  "单位时间内每立方米物料通风量"
+                          },
+                          {
+                              "symbol":  "V",
+                              "unit":  "",
+                              "meaning":  "污泥好氧发酵容积"
+                          },
+                          {
+                              "symbol":  "P",
+                              "unit":  "",
+                              "meaning":  "鼓风风压"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "A.0.1",
+        "latex":  "P _ {i} = \\frac {\\left(X _ {1} + X _ {2} + \\cdots + X _ {i}\\right) + X _ {i} \\times (N - i)}{X _ {1} + X _ {2} + \\cdots + X _ {N}} \\tag {A.0.1}",
+        "variables":  [
+                          {
+                              "symbol":  "i",
+                              "unit":  "",
+                              "meaning":  "第 1 个、第 2 个、第"
+                          },
+                          {
+                              "symbol":  "i",
+                              "unit":  "",
+                              "meaning":  "日降雨量序列的累计数。"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "雨水设计"
+    },
+    {
+        "clause":  "1",
+        "latex":  "\\lg K = - 0. 1 1 5 6 \\lg Q + 0. 5 0 5 2 \\tag {1}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "2",
+        "latex":  "t _ {1} = 1. 4 4 5 \\left(\\frac {n ^ {\\prime} L}{\\sqrt {i}}\\right) ^ {0. 4 6 7} \\tag {2}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "3",
+        "latex":  "V = \\frac {Q S _ {o}}{1 0 0 0 L _ {\\mathrm {v}}} \\tag {3}",
+        "variables":  [
+                          {
+                              "symbol":  "X",
+                              "unit":  "",
+                              "meaning":  "生物反应池的容积"
+                          },
+                          {
+                              "symbol":  "Q",
+                              "unit":  "",
+                              "meaning":  "生物反应池的设计流量"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "污水污泥处理"
+    },
+    {
+        "clause":  "4",
+        "latex":  "A _ {\\mathrm {e}} = A _ {\\mathrm {r}} - A _ {\\mathrm {o}} + 0. 3 \\times \\left(S _ {\\mathrm {o}} - S _ {\\mathrm {e}}\\right) + 3 \\times \\Delta N _ {\\mathrm {d e}} - 7. 1 4 \\times \\Delta N _ {0} \\tag {4}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "5",
+        "latex":  "J _ {\\mathrm {m}} = \\frac {J _ {\\mathrm {o}} \\cdot t _ {\\mathrm {o}}}{t _ {\\mathrm {o}} + t _ {\\mathrm {p}}} \\tag {5}",
+        "variables":  [
+                          {
+                              "symbol":  "t_0",
+                              "unit":  "",
+                              "meaning":  "产水泵运行时间（min）；"
+                          }
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "6",
+        "latex":  "\\Delta p = \\Delta p _ {1} + h _ {\\mathrm {f} _ {1}} + h _ {\\mathrm {f} _ {2}} + h _ {\\mathrm {f} _ {3}} + \\Delta H \\tag {6}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    },
+    {
+        "clause":  "7",
+        "latex":  "\\Delta p _ {0} = \\left(1 + K _ {\\mathrm {p}}\\right) \\Delta p \\frac {\\rho_ {0}}{\\rho} \\tag {7}",
+        "variables":  [
+
+                      ],
+        "source_file":  "gb50014-2021-full.md",
+        "domain":  "排水工程"
+    }
 ]

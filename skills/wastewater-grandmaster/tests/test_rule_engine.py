@@ -52,20 +52,20 @@ class TestTypedRuleEngineBasics:
             assert r.citation_text.startswith("GB 50014-2021")
             assert r.clause in r.citation_text
 
-    def test_resolved_source_file_points_to_real_reference(self, engine):
+    def test_resolved_source_file_points_to_compact_reference(self, engine):
         results = engine.check(
             "stormwater_design",
             {"system_type": "storm"},
             {"post_dev_runoff": 80.0, "pre_dev_runoff": 100.0},
         )
         target = [r for r in results if r.clause == "4.1.6"][0]
-        assert target.source_file.startswith("references/gb50014-2021/")
+        assert target.source_file == "references/gb50014-2021/gb50014-2021-full.md"
         resolved_path = os.path.join(REPO_ROOT, target.source_file.replace("/", os.sep))
         assert os.path.exists(resolved_path)
 
-    def test_citation_helper_resolves_real_nested_path(self):
+    def test_citation_helper_resolves_compact_bundle_path(self):
         relative_path = resolve_reference_relative_path("4.1.7")
-        assert relative_path.startswith("references/gb50014-2021/53-416")
+        assert relative_path == "references/gb50014-2021/gb50014-2021-full.md"
         resolved_path = os.path.join(REPO_ROOT, relative_path.replace("/", os.sep))
         assert os.path.exists(resolved_path)
 

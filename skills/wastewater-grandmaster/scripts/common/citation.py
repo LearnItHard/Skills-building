@@ -1,13 +1,13 @@
 """
 Citation utilities for referencing GB 50014-2021 standard.
 
-This module resolves clause references to the actual markdown files bundled
-under references/gb50014-2021/, including nested chapter directories.
+The skill now ships a compact reference bundle to avoid installer failures on
+platforms that struggle with hundreds of tiny files. Clause citations resolve
+to a small set of canonical markdown files under references/gb50014-2021/.
 """
 
 import os
 import re
-from functools import lru_cache
 from typing import Optional
 
 
@@ -17,73 +17,14 @@ REFERENCE_BASE_PATH = os.path.join(
     "references", "gb50014-2021"
 )
 REFERENCE_RELATIVE_ROOT = "references/gb50014-2021"
+DEFAULT_REFERENCE_FILE = "gb50014-2021-full.md"
+APPENDIX_C_REFERENCE_FILE = "appendix-c-clearance.md"
 
-
-# Mapping of clause numbers to preferred reference file stems.
-# Dynamic discovery below resolves the actual nested markdown path.
-CLAUSE_FILE_MAPPING = {
-    # Chapter 5: Water and drainage pipeline systems
-    "5.2.2": "60-52-水力计算",
-    "5.2.3": "60-52-水力计算",
-    "5.2.4": "60-52-水力计算",
-    "5.2.5": "60-52-水力计算",
-    "5.2.6": "60-52-水力计算",
-    "5.2.7": "60-52-水力计算",
-    "5.2.10": "60-52-水力计算",
-    "5.3": "212-53-管道",
-    "5.3.1": "212-53-管道",
-    "5.3.3": "212-53-管道",
-    "5.3.4": "212-53-管道",
-    "5.3.5": "212-53-管道",
-    "5.3.7": "212-53-管道",
-    "5.3.8": "212-53-管道",
-    "5.3.9": "212-53-管道",
-    "5.3.10": "212-53-管道",
-    "5.3.11": "212-53-管道",
-    "5.3.12": "212-53-管道",
-    
-    # Chapter 6: Pumping stations
-    "6.1": "79-61-一般规定",
-    "6.2": "80-62-设计流量和设计扬程",
-    "6.3": "81-63-集水池",
-    "6.4": "82-64-泵房设计",
-    "6.4.2": "82-64-泵房设计",
-    "6.5": "84-Ⅱ泵房",
-    
-    # Chapter 7: Treatment
-    "7.1": "87-71-一般规定",
-    "7.2": "89-73-格栅",
-    "7.3": "90-74-沉砂池",
-    "7.4": "91-75-沉淀池",
-    "7.5": "101-76-活性污泥法",
-    "7.6": "114-78-生物膜法",
-    "7.7": "120-79-供氧设施",
-    "7.10": "122-711-深度和再生处理",
-    "7.11": "136-713-消毒",
-    "7.12": "132-712-自然处理",
-    
-    # Chapter 8: Sludge
-    "8.1": "141-81-一般规定",
-    "8.2": "142-82-污泥浓缩",
-    "8.3": "143-83-污泥消化",
-    "8.4": "154-851-污泥机械脱水",
-    "8.5": "155-852-污泥在脱水前应加药调理",
-    
-    # Chapter 4: Design flow and design water quality
-    "4.1.7": "53-416-当地区改建时改建后相同设计重现期的径流量不得超过原径",
-    "4.1.9": "54-419-设计暴雨强度应按下式计算",
-    "4.1.11": "55-4110-暴雨强度公式应根据气候变化进行修订",
-    "4.1.13": "56-Ⅱ污水量",
-    "4.1.15": "56-Ⅱ污水量",
-
-    # Default fallback
-    "default": "06-室外排水设计标准",
+SPECIAL_REFERENCE_HINTS = {
+    "附录C": APPENDIX_C_REFERENCE_FILE,
+    "净距": APPENDIX_C_REFERENCE_FILE,
+    "181-附录C": APPENDIX_C_REFERENCE_FILE,
 }
-
-
-CLAUSE_LINE_PATTERN = re.compile(
-    r"^((?:附录\s*[A-Z](?:\.\d+(?:\.\d+)?)?)|(?:\d+(?:\.\d+)+(?:-\d+)?))\b"
-)
 
 
 def _normalize_clause_key(clause: str) -> str:
@@ -99,37 +40,8 @@ def _format_clause_reference(clause: str) -> str:
     return f"第{normalized}条"
 
 
-def _candidate_clause_keys(clause: str) -> list[str]:
-    normalized = _normalize_clause_key(clause)
-    candidates = [normalized]
-
-    if "-" in normalized:
-        candidates.append(normalized.rsplit("-", 1)[0])
-
-    base = normalized
-    while "." in base:
-        base = base.rsplit(".", 1)[0]
-        candidates.append(base)
-
-    seen = set()
-    ordered = []
-    for item in candidates:
-        if item not in seen:
-            seen.add(item)
-            ordered.append(item)
-    return ordered
-
-
-def _reference_sort_key(relative_path: str) -> tuple[int, str]:
-    basename = os.path.basename(relative_path)
-    match = re.match(r"(\d+)-", basename)
-    prefix = int(match.group(1)) if match else 10**9
-    return prefix, relative_path
-
-
-def _to_relative_reference_path(full_path: str) -> str:
-    relative = os.path.relpath(full_path, REFERENCE_BASE_PATH).replace(os.sep, "/")
-    return f"{REFERENCE_RELATIVE_ROOT}/{relative}"
+def _build_relative_reference_path(filename: str) -> str:
+    return f"{REFERENCE_RELATIVE_ROOT}/{filename}"
 
 
 def _normalize_file_hint(file_hint: str) -> str:
@@ -139,86 +51,42 @@ def _normalize_file_hint(file_hint: str) -> str:
     return normalized
 
 
-def _resolve_hint_to_full_path(file_hint: str) -> Optional[str]:
+def _resolve_hint_to_relative_path(file_hint: str) -> Optional[str]:
     normalized = _normalize_file_hint(file_hint)
     if not normalized:
         return None
 
-    candidates = []
-    if normalized.endswith(".md"):
-        candidates.append(os.path.join(REFERENCE_BASE_PATH, normalized))
-        stem = normalized[:-3]
-        basename = os.path.basename(stem)
-        candidates.append(os.path.join(REFERENCE_BASE_PATH, stem, f"{basename}.md"))
-    else:
-        candidates.append(os.path.join(REFERENCE_BASE_PATH, normalized))
-        candidates.append(os.path.join(REFERENCE_BASE_PATH, f"{normalized}.md"))
-        basename = os.path.basename(normalized)
-        candidates.append(os.path.join(REFERENCE_BASE_PATH, normalized, f"{basename}.md"))
+    for marker, filename in SPECIAL_REFERENCE_HINTS.items():
+        if marker in normalized:
+            return _build_relative_reference_path(filename)
 
-    for candidate in candidates:
-        if os.path.isfile(candidate):
-            return candidate
+    candidate = normalized if normalized.endswith(".md") else f"{normalized}.md"
+    candidate_path = os.path.join(REFERENCE_BASE_PATH, candidate.replace("/", os.sep))
+    if os.path.isfile(candidate_path):
+        return _build_relative_reference_path(candidate)
+
+    if normalized.endswith(".md"):
+        basename = os.path.basename(normalized)
+        nested_candidate = os.path.join(REFERENCE_BASE_PATH, normalized[:-3], basename)
+        if os.path.isfile(nested_candidate):
+            return _build_relative_reference_path(normalized)
 
     return None
-
-
-@lru_cache(maxsize=1)
-def _discover_clause_paths() -> dict[str, str]:
-    discovered: dict[str, list[str]] = {}
-
-    for root, dirs, files in os.walk(REFERENCE_BASE_PATH):
-        dirs.sort()
-        for filename in sorted(files):
-            if not filename.endswith(".md"):
-                continue
-
-            full_path = os.path.join(root, filename)
-            clause_key = None
-            with open(full_path, "r", encoding="utf-8") as handle:
-                for line_number, line in enumerate(handle, start=1):
-                    if line_number > 12:
-                        break
-                    match = CLAUSE_LINE_PATTERN.match(line.strip())
-                    if match:
-                        clause_key = _normalize_clause_key(match.group(1))
-                        break
-
-            if clause_key is None:
-                continue
-
-            relative_path = os.path.relpath(full_path, REFERENCE_BASE_PATH).replace(os.sep, "/")
-            discovered.setdefault(clause_key, []).append(relative_path)
-
-    resolved: dict[str, str] = {}
-    for clause_key, candidates in discovered.items():
-        resolved[clause_key] = min(candidates, key=_reference_sort_key)
-
-    return resolved
 
 
 def resolve_reference_relative_path(clause: str, file: Optional[str] = None) -> str:
     """Resolve a clause reference to a workspace-relative markdown path."""
     if file:
-        resolved_file = _resolve_hint_to_full_path(file)
-        if resolved_file:
-            return _to_relative_reference_path(resolved_file)
+        resolved_path = _resolve_hint_to_relative_path(file)
+        if resolved_path:
+            return resolved_path
 
-    discovered = _discover_clause_paths()
-    for candidate_clause in _candidate_clause_keys(clause):
-        if candidate_clause in discovered:
-            return f"{REFERENCE_RELATIVE_ROOT}/{discovered[candidate_clause]}"
+    normalized_clause = _normalize_clause_key(clause)
+    for marker, filename in SPECIAL_REFERENCE_HINTS.items():
+        if marker in normalized_clause:
+            return _build_relative_reference_path(filename)
 
-        mapped_hint = CLAUSE_FILE_MAPPING.get(candidate_clause)
-        if mapped_hint:
-            resolved_file = _resolve_hint_to_full_path(mapped_hint)
-            if resolved_file:
-                return _to_relative_reference_path(resolved_file)
-
-    fallback = _resolve_hint_to_full_path(CLAUSE_FILE_MAPPING["default"])
-    if fallback is None:
-        return f"{REFERENCE_RELATIVE_ROOT}/{CLAUSE_FILE_MAPPING['default']}.md"
-    return _to_relative_reference_path(fallback)
+    return _build_relative_reference_path(DEFAULT_REFERENCE_FILE)
 
 
 def make_citation(clause: str, file: Optional[str] = None) -> str:
@@ -235,7 +103,7 @@ def make_citation(clause: str, file: Optional[str] = None) -> str:
         
     Example:
         >>> make_citation("5.2.3")
-        'GB 50014-2021 第5.2.3条（见 references/gb50014-2021/60-52-水力计算/60-52-水力计算.md）'
+        'GB 50014-2021 第5.2.3条（见 references/gb50014-2021/gb50014-2021-full.md）'
     """
     # Validate clause format
     if not clause:
@@ -263,7 +131,7 @@ def make_citation_from_section(section: str, clause: Optional[str] = None) -> st
         
     Example:
         >>> make_citation_from_section("5.2", "3")
-        'GB 50014-2021 第5.2.3条（见 references/gb50014-2021/60-52-水力计算.md）'
+        'GB 50014-2021 第5.2.3条（见 references/gb50014-2021/gb50014-2021-full.md）'
     """
     if clause:
         full_clause = f"{section}.{clause}"
@@ -311,7 +179,7 @@ def get_reference_path(clause: str) -> str:
         
     Example:
         >>> get_reference_path("5.2.3")
-        '.../references/gb50014-2021/60-52-水力计算/60-52-水力计算.md'
+        '.../references/gb50014-2021/gb50014-2021-full.md'
     """
     relative_path = resolve_reference_relative_path(clause)
     if relative_path.startswith(f"{REFERENCE_RELATIVE_ROOT}/"):
@@ -321,7 +189,5 @@ def get_reference_path(clause: str) -> str:
 
 
 def list_available_clauses() -> list:
-    """Return list of clauses with known file mappings."""
-    clauses = set(CLAUSE_FILE_MAPPING.keys())
-    clauses.update(_discover_clause_paths().keys())
-    return sorted(clauses)
+    """Return representative clauses for the compact reference bundle."""
+    return sorted(["附录C", "4.1.6", "4.1.7", "5.2.3", "6.2.4", "7.6.10", "8.3.6"])

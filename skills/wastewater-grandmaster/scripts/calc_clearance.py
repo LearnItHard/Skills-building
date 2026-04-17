@@ -2,15 +2,14 @@
 管道埋深及净空检查脚本.
 
 根据 GB 50014-2021 附录 C 检查排水管道与其他地下管线(构筑物)的最小净距.
-数据来源: references/gb50014-2021/181-附录C-排水管道和其他地下管线构筑物的最小净距.md
+数据来源: references/gb50014-2021/appendix-c-clearance.md
 """
 
 import argparse
 import json
 import os
-import re
 import sys
-from typing import Dict, List, Optional, Tuple
+from typing import Dict
 
 try:
     from .common.citation import make_citation
@@ -21,37 +20,16 @@ except ImportError:
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 APPENDIX_C_PATH = os.path.join(
     REPO_ROOT, "references", "gb50014-2021",
-    "181-附录C-排水管道和其他地下管线构筑物的最小净距",
-    "181-附录C-排水管道和其他地下管线构筑物的最小净距.md"
+    "appendix-c-clearance.md"
 )
 
 
-def _extract_tables_from_md(md_path: str) -> List[List[List[str]]]:
-    """Extract all HTML tables from markdown file as list of tables (each table is list of rows)."""
-    with open(md_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    tables = []
-    # Find all <table>...</table> blocks
-    table_blocks = re.findall(r"<table>(.*?)</table>", content, re.DOTALL)
-    for block in table_blocks:
-        rows = []
-        # Extract all <tr>...</tr>
-        tr_blocks = re.findall(r"<tr>(.*?)</tr>", block, re.DOTALL)
-        for tr in tr_blocks:
-            # Extract text from <td> or <th>
-            cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.DOTALL)
-            # Strip inner HTML tags and whitespace
-            cleaned = [re.sub(r"<[^>]+>", "", c).strip() for c in cells]
-            if cleaned:
-                rows.append(cleaned)
-        if rows:
-            tables.append(rows)
-    return tables
-
-
 def _parse_clearance_data() -> Dict[str, Dict[str, any]]:
-    """Parse Appendix C tables into structured lookup dict.
+    """Return Appendix C clearance lookup data.
+
+    The skill keeps this lookup as structured data so runtime behavior does not
+    depend on parsing a large markdown corpus. The compact markdown file remains
+    bundled for citation and manual review.
 
     Returns dict mapping structure_key -> {
         "name": display name,
@@ -60,12 +38,8 @@ def _parse_clearance_data() -> Dict[str, Dict[str, any]]:
         "notes": str
     }
     """
-    tables = _extract_tables_from_md(APPENDIX_C_PATH)
     data: Dict[str, Dict[str, any]] = {}
 
-    # Table 1: main structures (has rowspan/colspan, flattened below)
-    # We manually map based on the known table structure from GB 50014-2021 Appendix C
-    # Table 1 rows after header:
     manual_mappings = [
         ("building_shallow", "建筑物（管道埋深浅于基础）", 2.50, None, ""),
         ("building_deep", "建筑物（管道埋深深于基础）", 3.00, None, ""),
@@ -155,7 +129,7 @@ def main():
 
     output = {
         "result": result,
-        "citation": make_citation("附录C", "181-附录C-排水管道和其他地下管线构筑物的最小净距"),
+        "citation": make_citation("附录C", "appendix-c-clearance.md"),
     }
 
     sys.stdout.reconfigure(encoding='utf-8')
