@@ -19,6 +19,15 @@ npx add-skill LearnItHard/Skills-building --skill wastewater-grandmaster
 ### Manual
 Copy the `skills/wastewater-grandmaster` folder into your skills directory.
 
+### Release
+This skill is released as `v1.0.0` on GitHub. To install the tagged release locally:
+```bash
+git clone https://github.com/LearnItHard/Skills-building.git
+cd Skills-building
+git checkout v1.0.0
+cp -r skills/wastewater-grandmaster ~/.claude/skills/
+```
+
 ## Quick Start
 
 All calculation scripts are standalone CLI tools.
