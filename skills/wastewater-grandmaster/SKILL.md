@@ -1,6 +1,6 @@
 ---
 name: wastewater-grandmaster
-description: Grandmaster-level engineering assistant for GB 50014-2021 Outdoor Drainage Design Standard. Provides precise clause citation from 314 canonical chapters, bounded hydraulic and treatment calculations with unit tracking, and layered compliance review distinguishing 14 legal mandatory clauses from ~2048 design rules.
+description: Grandmaster-level engineering assistant for GB 50014-2021 Outdoor Drainage Design Standard. Provides precise clause citation from a compact GB 50014-2021 reference bundle, bounded hydraulic and treatment calculations with unit tracking, and layered compliance review distinguishing 14 legal mandatory clauses from ~2048 design rules.
 ---
 
 # Wastewater Grandmaster (污水处理大师)
@@ -9,7 +9,7 @@ description: Grandmaster-level engineering assistant for GB 50014-2021 Outdoor D
 
 `wastewater-grandmaster` is a grandmaster-level engineering assistant for **GB 50014-2021 室外排水设计标准** (Outdoor Drainage Design Standard). It combines three tightly integrated capabilities:
 
-1. **Precise Clause Citation** — Instant lookup across all 314 canonical chapters with structured indexes (formulas, tables, mandatory clauses, cross-references).
+1. **Precise Clause Citation** — Instant lookup across a compact GB 50014-2021 reference bundle with structured indexes (formulas, tables, mandatory clauses, cross-references).
 2. **Bounded Calculations** — Typed Python scripts for hydraulics, storm/sewage flow, pump stations, treatment, sludge digestion, sponge-city rainfall, and clearance checks. Every output carries units, applicability warnings, and GB citations.
 3. **Layered Compliance Review** — A typed rule engine that evaluates designs against the 14 legal mandatory clauses and ~2048 design rules, returning `PASS`, `VIOLATION`, `WARNING`, `MANUAL_REVIEW`, or `NOT_APPLICABLE`.
 
@@ -24,9 +24,11 @@ description: Grandmaster-level engineering assistant for GB 50014-2021 Outdoor D
 
 ### 1. Citation & Lookup
 
-All 314 canonical GB 50014-2021 chapters are bundled under `references/gb50014-2021/` with pre-built indexes:
+GB 50014-2021 is bundled in a compact reference package under `references/gb50014-2021/` to avoid installer failures on platforms that choke on hundreds of small files. The package keeps the full standard text plus targeted appendix material and pre-built indexes:
 
-- `index.json` — Chapter-to-file mapping
+- `index.json` — Compact bundle manifest
+- `gb50014-2021-full.md` — Consolidated standard text
+- `appendix-c-clearance.md` — Appendix C excerpt for clearance lookup and review
 - `glossary.json` — 21 core terms
 - `formula_index.json` — 42 formulas with clause numbers
 - `table_index.json` — 68 tables
@@ -101,7 +103,7 @@ Each `RuleResult` includes:
 
 ## Design Data & References
 
-- `references/gb50014-2021/` — All 314 canonical chapters
+- `references/gb50014-2021/` — Compact GB 50014-2021 bundle
 - `references/glossary.json` — Term definitions
 - `references/formula_index.json` — 42 formulas
 - `references/table_index.json` — 68 tables
@@ -123,6 +125,7 @@ python -m pytest tests/ -v
 
 - **Kz fitted formula disclaimer:** When using `peak_factor_method="fitted"` in `calc_sewage_flow.py`, the output includes `"disclaimer": "Kz 来源于条文说明拟合式，非正文公式"`.
 - **Storm applicability:** For `F > 2 km²` (200 hm²), `calc_storm_flow.py` sets `method_switched: true` and reminds you to switch methods per GB 50014-2021 4.1.7.
-- **Citation paths:** `citation_text` and related outputs now resolve to the real nested markdown file under `references/gb50014-2021/`.
+- **Compact packaging:** The bundled references were collapsed into a few canonical files so OpenClaw and similar installers can fetch the skill reliably.
+- **Citation paths:** `citation_text` and related outputs now resolve to the compact canonical markdown files under `references/gb50014-2021/`.
 - **Legal mandatory clauses:** There are exactly 14 items in `mandatory_clauses.json`. No expansion is allowed.
 - **Not applicable rules:** The rule engine returns `NOT_APPLICABLE` when `design_context["system_type"]` (sewage / storm / combined) does not match a rule's domain.
